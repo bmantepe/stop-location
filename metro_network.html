@@ -1,0 +1,258 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 700px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 700px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "steelblue", "id": "Gl\u00f2ries", "label": "Gl\u00f2ries", "shape": "dot", "size": 200, "title": "Gl\u00f2ries"}, {"color": "steelblue", "id": "Marina", "label": "Marina", "shape": "dot", "size": 200, "title": "Marina"}, {"color": "steelblue", "id": "Clot", "label": "Clot", "shape": "dot", "size": 200, "title": "Clot"}, {"color": "steelblue", "id": "El Maresme | F\u00f2rum", "label": "El Maresme | F\u00f2rum", "shape": "dot", "size": 200, "title": "El Maresme | F\u00f2rum"}, {"color": "steelblue", "id": "Bes\u00f2s Mar", "label": "Bes\u00f2s Mar", "shape": "dot", "size": 200, "title": "Bes\u00f2s Mar"}, {"color": "steelblue", "id": "Selva de Mar", "label": "Selva de Mar", "shape": "dot", "size": 200, "title": "Selva de Mar"}, {"color": "steelblue", "id": "Collblanc", "label": "Collblanc", "shape": "dot", "size": 200, "title": "Collblanc"}, {"color": "steelblue", "id": "Ernest Lluch", "label": "Ernest Lluch", "shape": "dot", "size": 200, "title": "Ernest Lluch"}, {"color": "steelblue", "id": "Badal", "label": "Badal", "shape": "dot", "size": 200, "title": "Badal"}, {"color": "steelblue", "id": "Encants", "label": "Encants", "shape": "dot", "size": 200, "title": "Encants"}, {"color": "steelblue", "id": "Sagrada Fam\u00edlia", "label": "Sagrada Fam\u00edlia", "shape": "dot", "size": 200, "title": "Sagrada Fam\u00edlia"}, {"color": "steelblue", "id": "Liceu", "label": "Liceu", "shape": "dot", "size": 200, "title": "Liceu"}, {"color": "steelblue", "id": "Drassanes", "label": "Drassanes", "shape": "dot", "size": 200, "title": "Drassanes"}, {"color": "steelblue", "id": "Catalunya", "label": "Catalunya", "shape": "dot", "size": 200, "title": "Catalunya"}, {"color": "steelblue", "id": "Poble Sec", "label": "Poble Sec", "shape": "dot", "size": 200, "title": "Poble Sec"}, {"color": "steelblue", "id": "Espanya", "label": "Espanya", "shape": "dot", "size": 200, "title": "Espanya"}, {"color": "steelblue", "id": "Paral\u00b7lel", "label": "Paral\u00b7lel", "shape": "dot", "size": 200, "title": "Paral\u00b7lel"}, {"color": "steelblue", "id": "Hospital de Bellvitge", "label": "Hospital de Bellvitge", "shape": "dot", "size": 200, "title": "Hospital de Bellvitge"}, {"color": "steelblue", "id": "Bellvitge", "label": "Bellvitge", "shape": "dot", "size": 200, "title": "Bellvitge"}, {"color": "steelblue", "id": "Bes\u00f2s", "label": "Bes\u00f2s", "shape": "dot", "size": 200, "title": "Bes\u00f2s"}, {"color": "steelblue", "id": "La Pau", "label": "La Pau", "shape": "dot", "size": 200, "title": "La Pau"}, {"color": "steelblue", "id": "Mundet", "label": "Mundet", "shape": "dot", "size": 200, "title": "Mundet"}, {"color": "steelblue", "id": "Montbau", "label": "Montbau", "shape": "dot", "size": 200, "title": "Montbau"}, {"color": "steelblue", "id": "Valldaura", "label": "Valldaura", "shape": "dot", "size": 200, "title": "Valldaura"}, {"color": "steelblue", "id": "Enten\u00e7a", "label": "Enten\u00e7a", "shape": "dot", "size": 200, "title": "Enten\u00e7a"}, {"color": "steelblue", "id": "Sants Estaci\u00f3", "label": "Sants Estaci\u00f3", "shape": "dot", "size": 200, "title": "Sants Estaci\u00f3"}, {"color": "steelblue", "id": "Hospital Cl\u00ednic", "label": "Hospital Cl\u00ednic", "shape": "dot", "size": 200, "title": "Hospital Cl\u00ednic"}, {"color": "steelblue", "id": "La Sagrera", "label": "La Sagrera", "shape": "dot", "size": 200, "title": "La Sagrera"}, {"color": "steelblue", "id": "Navas", "label": "Navas", "shape": "dot", "size": 200, "title": "Navas"}, {"color": "steelblue", "id": "Fabra i Puig", "label": "Fabra i Puig", "shape": "dot", "size": 200, "title": "Fabra i Puig"}, {"color": "steelblue", "id": "Camp de l\u0027Arpa", "label": "Camp de l\u0027Arpa", "shape": "dot", "size": 200, "title": "Camp de l\u0027Arpa"}, {"color": "steelblue", "id": "Congr\u00e9s", "label": "Congr\u00e9s", "shape": "dot", "size": 200, "title": "Congr\u00e9s"}, {"color": "steelblue", "id": "Canyelles", "label": "Canyelles", "shape": "dot", "size": 200, "title": "Canyelles"}, {"color": "steelblue", "id": "Roquetes", "label": "Roquetes", "shape": "dot", "size": 200, "title": "Roquetes"}, {"color": "steelblue", "id": "Pep Ventura", "label": "Pep Ventura", "shape": "dot", "size": 200, "title": "Pep Ventura"}, {"color": "steelblue", "id": "Gorg", "label": "Gorg", "shape": "dot", "size": 200, "title": "Gorg"}, {"color": "steelblue", "id": "Badalona Pompeu Fabra", "label": "Badalona Pompeu Fabra", "shape": "dot", "size": 200, "title": "Badalona Pompeu Fabra"}, {"color": "steelblue", "id": "Sant Andreu", "label": "Sant Andreu", "shape": "dot", "size": 200, "title": "Sant Andreu"}, {"color": "steelblue", "id": "Universitat", "label": "Universitat", "shape": "dot", "size": 200, "title": "Universitat"}, {"color": "steelblue", "id": "Urquinaona", "label": "Urquinaona", "shape": "dot", "size": 200, "title": "Urquinaona"}, {"color": "steelblue", "id": "Passeig de Gr\u00e0cia", "label": "Passeig de Gr\u00e0cia", "shape": "dot", "size": 200, "title": "Passeig de Gr\u00e0cia"}, {"color": "steelblue", "id": "Trinitat Vella", "label": "Trinitat Vella", "shape": "dot", "size": 200, "title": "Trinitat Vella"}, {"color": "steelblue", "id": "Torras i Bages", "label": "Torras i Bages", "shape": "dot", "size": 200, "title": "Torras i Bages"}, {"color": "steelblue", "id": "Bar\u00f3 de Viver", "label": "Bar\u00f3 de Viver", "shape": "dot", "size": 200, "title": "Bar\u00f3 de Viver"}, {"color": "steelblue", "id": "Verneda", "label": "Verneda", "shape": "dot", "size": 200, "title": "Verneda"}, {"color": "steelblue", "id": "Artigues | Sant Adri\u00e0", "label": "Artigues | Sant Adri\u00e0", "shape": "dot", "size": 200, "title": "Artigues | Sant Adri\u00e0"}, {"color": "steelblue", "id": "Rambla Just Oliveras", "label": "Rambla Just Oliveras", "shape": "dot", "size": 200, "title": "Rambla Just Oliveras"}, {"color": "steelblue", "id": "Av. Carrilet", "label": "Av. Carrilet", "shape": "dot", "size": 200, "title": "Av. Carrilet"}, {"color": "steelblue", "id": "Can Serra", "label": "Can Serra", "shape": "dot", "size": 200, "title": "Can Serra"}, {"color": "steelblue", "id": "Vilapicina", "label": "Vilapicina", "shape": "dot", "size": 200, "title": "Vilapicina"}, {"color": "steelblue", "id": "Virrei Amat", "label": "Virrei Amat", "shape": "dot", "size": 200, "title": "Virrei Amat"}, {"color": "steelblue", "id": "Horta", "label": "Horta", "shape": "dot", "size": 200, "title": "Horta"}, {"color": "steelblue", "id": "Pla\u00e7a de Sants", "label": "Pla\u00e7a de Sants", "shape": "dot", "size": 200, "title": "Pla\u00e7a de Sants"}, {"color": "steelblue", "id": "Hostafrancs", "label": "Hostafrancs", "shape": "dot", "size": 200, "title": "Hostafrancs"}, {"color": "steelblue", "id": "Monumental", "label": "Monumental", "shape": "dot", "size": 200, "title": "Monumental"}, {"color": "steelblue", "id": "Verdaguer", "label": "Verdaguer", "shape": "dot", "size": 200, "title": "Verdaguer"}, {"color": "steelblue", "id": "Sant Pau | Dos de Maig", "label": "Sant Pau | Dos de Maig", "shape": "dot", "size": 200, "title": "Sant Pau | Dos de Maig"}, {"color": "steelblue", "id": "Sant Roc", "label": "Sant Roc", "shape": "dot", "size": 200, "title": "Sant Roc"}, {"color": "steelblue", "id": "Girona", "label": "Girona", "shape": "dot", "size": 200, "title": "Girona"}, {"color": "steelblue", "id": "Urgell", "label": "Urgell", "shape": "dot", "size": 200, "title": "Urgell"}, {"color": "steelblue", "id": "Rocafort", "label": "Rocafort", "shape": "dot", "size": 200, "title": "Rocafort"}, {"color": "steelblue", "id": "Bac de Roda", "label": "Bac de Roda", "shape": "dot", "size": 200, "title": "Bac de Roda"}, {"color": "steelblue", "id": "Zona Universit\u00e0ria", "label": "Zona Universit\u00e0ria", "shape": "dot", "size": 200, "title": "Zona Universit\u00e0ria"}, {"color": "steelblue", "id": "Palau Reial", "label": "Palau Reial", "shape": "dot", "size": 200, "title": "Palau Reial"}, {"color": "steelblue", "id": "Cornell\u00e0 Centre", "label": "Cornell\u00e0 Centre", "shape": "dot", "size": 200, "title": "Cornell\u00e0 Centre"}, {"color": "steelblue", "id": "Gavarra", "label": "Gavarra", "shape": "dot", "size": 200, "title": "Gavarra"}, {"color": "steelblue", "id": "Sant Ildefons", "label": "Sant Ildefons", "shape": "dot", "size": 200, "title": "Sant Ildefons"}, {"color": "steelblue", "id": "Santa Coloma", "label": "Santa Coloma", "shape": "dot", "size": 200, "title": "Santa Coloma"}, {"color": "steelblue", "id": "Poblenou", "label": "Poblenou", "shape": "dot", "size": 200, "title": "Poblenou"}, {"color": "steelblue", "id": "Llacuna", "label": "Llacuna", "shape": "dot", "size": 200, "title": "Llacuna"}, {"color": "steelblue", "id": "Sant Antoni", "label": "Sant Antoni", "shape": "dot", "size": 200, "title": "Sant Antoni"}, {"color": "steelblue", "id": "Mercat Nou", "label": "Mercat Nou", "shape": "dot", "size": 200, "title": "Mercat Nou"}, {"color": "steelblue", "id": "Maragall", "label": "Maragall", "shape": "dot", "size": 200, "title": "Maragall"}, {"color": "steelblue", "id": "Alfons X", "label": "Alfons X", "shape": "dot", "size": 200, "title": "Alfons X"}, {"color": "steelblue", "id": "Joanic", "label": "Joanic", "shape": "dot", "size": 200, "title": "Joanic"}, {"color": "steelblue", "id": "Guinard\u00f3 | Hospital de Sant Pau", "label": "Guinard\u00f3 | Hospital de Sant Pau", "shape": "dot", "size": 200, "title": "Guinard\u00f3 | Hospital de Sant Pau"}, {"color": "steelblue", "id": "Sant Mart\u00ed", "label": "Sant Mart\u00ed", "shape": "dot", "size": 200, "title": "Sant Mart\u00ed"}, {"color": "steelblue", "id": "Santa Eul\u00e0lia", "label": "Santa Eul\u00e0lia", "shape": "dot", "size": 200, "title": "Santa Eul\u00e0lia"}, {"color": "steelblue", "id": "Arc de Triomf", "label": "Arc de Triomf", "shape": "dot", "size": 200, "title": "Arc de Triomf"}, {"color": "steelblue", "id": "Bogatell", "label": "Bogatell", "shape": "dot", "size": 200, "title": "Bogatell"}, {"color": "steelblue", "id": "Ciutadella | Vila Ol\u00edmpica", "label": "Ciutadella | Vila Ol\u00edmpica", "shape": "dot", "size": 200, "title": "Ciutadella | Vila Ol\u00edmpica"}, {"color": "steelblue", "id": "Pubilla Cases", "label": "Pubilla Cases", "shape": "dot", "size": 200, "title": "Pubilla Cases"}, {"color": "steelblue", "id": "Can Vidalet", "label": "Can Vidalet", "shape": "dot", "size": 200, "title": "Can Vidalet"}, {"color": "steelblue", "id": "Torrassa", "label": "Torrassa", "shape": "dot", "size": 200, "title": "Torrassa"}, {"color": "steelblue", "id": "Florida", "label": "Florida", "shape": "dot", "size": 200, "title": "Florida"}, {"color": "steelblue", "id": "Tarragona", "label": "Tarragona", "shape": "dot", "size": 200, "title": "Tarragona"}, {"color": "steelblue", "id": "Llucmajor", "label": "Llucmajor", "shape": "dot", "size": 200, "title": "Llucmajor"}, {"color": "steelblue", "id": "Can Boixeres", "label": "Can Boixeres", "shape": "dot", "size": 200, "title": "Can Boixeres"}, {"color": "steelblue", "id": "Tetuan", "label": "Tetuan", "shape": "dot", "size": 200, "title": "Tetuan"}, {"color": "steelblue", "id": "Via J\u00falia", "label": "Via J\u00falia", "shape": "dot", "size": 200, "title": "Via J\u00falia"}, {"color": "steelblue", "id": "Trinitat Nova", "label": "Trinitat Nova", "shape": "dot", "size": 200, "title": "Trinitat Nova"}, {"color": "steelblue", "id": "Les Corts", "label": "Les Corts", "shape": "dot", "size": 200, "title": "Les Corts"}, {"color": "steelblue", "id": "Maria Cristina", "label": "Maria Cristina", "shape": "dot", "size": 200, "title": "Maria Cristina"}, {"color": "steelblue", "id": "Pla\u00e7a del Centre", "label": "Pla\u00e7a del Centre", "shape": "dot", "size": 200, "title": "Pla\u00e7a del Centre"}, {"color": "steelblue", "id": "Barceloneta", "label": "Barceloneta", "shape": "dot", "size": 200, "title": "Barceloneta"}, {"color": "steelblue", "id": "Diagonal", "label": "Diagonal", "shape": "dot", "size": 200, "title": "Diagonal"}, {"color": "steelblue", "id": "Fontana", "label": "Fontana", "shape": "dot", "size": 200, "title": "Fontana"}, {"color": "steelblue", "id": "El Coll | La Teixonera", "label": "El Coll | La Teixonera", "shape": "dot", "size": 200, "title": "El Coll | La Teixonera"}, {"color": "steelblue", "id": "El Carmel", "label": "El Carmel", "shape": "dot", "size": 200, "title": "El Carmel"}, {"color": "steelblue", "id": "Vall d\u0027Hebron", "label": "Vall d\u0027Hebron", "shape": "dot", "size": 200, "title": "Vall d\u0027Hebron"}, {"color": "steelblue", "id": "Penitents", "label": "Penitents", "shape": "dot", "size": 200, "title": "Penitents"}, {"color": "steelblue", "id": "Vallcarca", "label": "Vallcarca", "shape": "dot", "size": 200, "title": "Vallcarca"}, {"color": "steelblue", "id": "Lesseps", "label": "Lesseps", "shape": "dot", "size": 200, "title": "Lesseps"}, {"color": "steelblue", "id": "Jaume I", "label": "Jaume I", "shape": "dot", "size": 200, "title": "Jaume I"}, {"color": "steelblue", "id": "Fondo", "label": "Fondo", "shape": "dot", "size": 200, "title": "Fondo"}, {"color": "blue", "id": "End", "label": "End", "shape": "dot", "size": 200, "title": "Destination"}, {"color": "green", "id": "Start", "label": "Start", "shape": "dot", "size": 200, "title": "Starting Point"}]);
+                  edges = new vis.DataSet([{"color": "red", "from": "Gl\u00f2ries", "title": "L1 - 885m", "to": "Marina", "width": 100}, {"color": "red", "from": "Gl\u00f2ries", "title": "L1 - 884m", "to": "Clot", "width": 100}, {"color": "yellow", "from": "El Maresme | F\u00f2rum", "title": "L4 - 505m", "to": "Bes\u00f2s Mar", "width": 100}, {"color": "yellow", "from": "El Maresme | F\u00f2rum", "title": "L4 - 774m", "to": "Selva de Mar", "width": 100}, {"color": "blue", "from": "Collblanc", "title": "L5 - 600m", "to": "Ernest Lluch", "width": 100}, {"color": "blue", "from": "Collblanc", "title": "L5 - 687m", "to": "Badal", "width": 100}, {"color": "purple", "from": "Encants", "title": "L2 - 1159m", "to": "Sagrada Fam\u00edlia", "width": 100}, {"color": "purple", "from": "Encants", "title": "L2 - 489m", "to": "Clot", "width": 100}, {"color": "green", "from": "Liceu", "title": "L3 - 629m", "to": "Drassanes", "width": 100}, {"color": "green", "from": "Liceu", "title": "L3 - 603m", "to": "Catalunya", "width": 100}, {"color": "green", "from": "Poble Sec", "title": "L3 - 727m", "to": "Espanya", "width": 100}, {"color": "green", "from": "Poble Sec", "title": "L3 - 742m", "to": "Paral\u00b7lel", "width": 100}, {"color": "red", "from": "Hospital de Bellvitge", "title": "L1 - 882m", "to": "Bellvitge", "width": 100}, {"color": "yellow", "from": "Bes\u00f2s", "title": "L4 - 595m", "to": "La Pau", "width": 100}, {"color": "yellow", "from": "Bes\u00f2s", "title": "L4 - 724m", "to": "Bes\u00f2s Mar", "width": 100}, {"color": "green", "from": "Mundet", "title": "L3 - 635m", "to": "Montbau", "width": 100}, {"color": "green", "from": "Mundet", "title": "L3 - 799m", "to": "Valldaura", "width": 100}, {"color": "blue", "from": "Enten\u00e7a", "title": "L5 - 678m", "to": "Sants Estaci\u00f3", "width": 100}, {"color": "blue", "from": "Enten\u00e7a", "title": "L5 - 648m", "to": "Hospital Cl\u00ednic", "width": 100}, {"color": "red", "from": "La Sagrera", "title": "L1 - 686m", "to": "Navas", "width": 100}, {"color": "red", "from": "La Sagrera", "title": "L1 - 863m", "to": "Fabra i Puig", "width": 100}, {"color": "blue", "from": "La Sagrera", "title": "L5 - 866m", "to": "Camp de l\u0027Arpa", "width": 100}, {"color": "blue", "from": "La Sagrera", "title": "L5 - 593m", "to": "Congr\u00e9s", "width": 100}, {"color": "green", "from": "Canyelles", "title": "L3 - 927m", "to": "Valldaura", "width": 100}, {"color": "green", "from": "Canyelles", "title": "L3 - 1073m", "to": "Roquetes", "width": 100}, {"color": "purple", "from": "Pep Ventura", "title": "L2 - 555m", "to": "Gorg", "width": 100}, {"color": "purple", "from": "Pep Ventura", "title": "L2 - 768m", "to": "Badalona Pompeu Fabra", "width": 100}, {"color": "red", "from": "Fabra i Puig", "title": "L1 - 1153m", "to": "Sant Andreu", "width": 100}, {"color": "red", "from": "Catalunya", "title": "L1 - 436m", "to": "Universitat", "width": 100}, {"color": "red", "from": "Catalunya", "title": "L1 - 523m", "to": "Urquinaona", "width": 100}, {"color": "green", "from": "Catalunya", "title": "L3 - 733m", "to": "Passeig de Gr\u00e0cia", "width": 100}, {"color": "red", "from": "Trinitat Vella", "title": "L1 - 727m", "to": "Torras i Bages", "width": 100}, {"color": "red", "from": "Trinitat Vella", "title": "L1 - 540m", "to": "Bar\u00f3 de Viver", "width": 100}, {"color": "purple", "from": "Verneda", "title": "L2 - 784m", "to": "La Pau", "width": 100}, {"color": "purple", "from": "Verneda", "title": "L2 - 824m", "to": "Artigues | Sant Adri\u00e0", "width": 100}, {"color": "red", "from": "Rambla Just Oliveras", "title": "L1 - 661m", "to": "Av. Carrilet", "width": 100}, {"color": "red", "from": "Rambla Just Oliveras", "title": "L1 - 572m", "to": "Can Serra", "width": 100}, {"color": "blue", "from": "Vilapicina", "title": "L5 - 636m", "to": "Virrei Amat", "width": 100}, {"color": "blue", "from": "Vilapicina", "title": "L5 - 683m", "to": "Horta", "width": 100}, {"color": "blue", "from": "Badal", "title": "L5 - 655m", "to": "Pla\u00e7a de Sants", "width": 100}, {"color": "red", "from": "Hostafrancs", "title": "L1 - 430m", "to": "Pla\u00e7a de Sants", "width": 100}, {"color": "red", "from": "Hostafrancs", "title": "L1 - 516m", "to": "Espanya", "width": 100}, {"color": "purple", "from": "Sagrada Fam\u00edlia", "title": "L2 - 530m", "to": "Monumental", "width": 100}, {"color": "blue", "from": "Sagrada Fam\u00edlia", "title": "L5 - 769m", "to": "Verdaguer", "width": 100}, {"color": "blue", "from": "Sagrada Fam\u00edlia", "title": "L5 - 846m", "to": "Sant Pau | Dos de Maig", "width": 100}, {"color": "purple", "from": "Sant Roc", "title": "L2 - 1017m", "to": "Artigues | Sant Adri\u00e0", "width": 100}, {"color": "purple", "from": "Sant Roc", "title": "L2 - 635m", "to": "Gorg", "width": 100}, {"color": "yellow", "from": "Girona", "title": "L4 - 665m", "to": "Passeig de Gr\u00e0cia", "width": 100}, {"color": "yellow", "from": "Girona", "title": "L4 - 772m", "to": "Verdaguer", "width": 100}, {"color": "red", "from": "Urgell", "title": "L1 - 511m", "to": "Rocafort", "width": 100}, {"color": "red", "from": "Urgell", "title": "L1 - 588m", "to": "Universitat", "width": 100}, {"color": "red", "from": "Clot", "title": "L1 - 669m", "to": "Navas", "width": 100}, {"color": "purple", "from": "Clot", "title": "L2 - 930m", "to": "Bac de Roda", "width": 100}, {"color": "green", "from": "Zona Universit\u00e0ria", "title": "L3 - 649m", "to": "Palau Reial", "width": 100}, {"color": "blue", "from": "Cornell\u00e0 Centre", "title": "L5 - 782m", "to": "Gavarra", "width": 100}, {"color": "blue", "from": "Gavarra", "title": "L5 - 789m", "to": "Sant Ildefons", "width": 100}, {"color": "green", "from": "Drassanes", "title": "L3 - 626m", "to": "Paral\u00b7lel", "width": 100}, {"color": "red", "from": "Bar\u00f3 de Viver", "title": "L1 - 735m", "to": "Santa Coloma", "width": 100}, {"color": "yellow", "from": "Poblenou", "title": "L4 - 676m", "to": "Selva de Mar", "width": 100}, {"color": "yellow", "from": "Poblenou", "title": "L4 - 671m", "to": "Llacuna", "width": 100}, {"color": "purple", "from": "Paral\u00b7lel", "title": "L2 - 789m", "to": "Sant Antoni", "width": 100}, {"color": "red", "from": "Pla\u00e7a de Sants", "title": "L1 - 504m", "to": "Mercat Nou", "width": 100}, {"color": "blue", "from": "Pla\u00e7a de Sants", "title": "L5 - 655m", "to": "Sants Estaci\u00f3", "width": 100}, {"color": "blue", "from": "Virrei Amat", "title": "L5 - 538m", "to": "Maragall", "width": 100}, {"color": "yellow", "from": "Alfons X", "title": "L4 - 754m", "to": "Joanic", "width": 100}, {"color": "yellow", "from": "Alfons X", "title": "L4 - 771m", "to": "Guinard\u00f3 | Hospital de Sant Pau", "width": 100}, {"color": "purple", "from": "Sant Mart\u00ed", "title": "L2 - 615m", "to": "Bac de Roda", "width": 100}, {"color": "purple", "from": "Sant Mart\u00ed", "title": "L2 - 733m", "to": "La Pau", "width": 100}, {"color": "red", "from": "Mercat Nou", "title": "L1 - 629m", "to": "Santa Eul\u00e0lia", "width": 100}, {"color": "red", "from": "Marina", "title": "L1 - 476m", "to": "Arc de Triomf", "width": 100}, {"color": "red", "from": "Av. Carrilet", "title": "L1 - 1134m", "to": "Bellvitge", "width": 100}, {"color": "yellow", "from": "Bogatell", "title": "L4 - 676m", "to": "Llacuna", "width": 100}, {"color": "yellow", "from": "Bogatell", "title": "L4 - 1154m", "to": "Ciutadella | Vila Ol\u00edmpica", "width": 100}, {"color": "blue", "from": "Pubilla Cases", "title": "L5 - 790m", "to": "Can Vidalet", "width": 100}, {"color": "blue", "from": "Pubilla Cases", "title": "L5 - 485m", "to": "Ernest Lluch", "width": 100}, {"color": "red", "from": "Rocafort", "title": "L1 - 600m", "to": "Espanya", "width": 100}, {"color": "red", "from": "Torrassa", "title": "L1 - 549m", "to": "Florida", "width": 100}, {"color": "red", "from": "Torrassa", "title": "L1 - 1031m", "to": "Santa Eul\u00e0lia", "width": 100}, {"color": "green", "from": "Tarragona", "title": "L3 - 502m", "to": "Sants Estaci\u00f3", "width": 100}, {"color": "green", "from": "Tarragona", "title": "L3 - 672m", "to": "Espanya", "width": 100}, {"color": "yellow", "from": "Maragall", "title": "L4 - 866m", "to": "Guinard\u00f3 | Hospital de Sant Pau", "width": 100}, {"color": "yellow", "from": "Maragall", "title": "L4 - 1668m", "to": "Llucmajor", "width": 100}, {"color": "blue", "from": "Maragall", "title": "L5 - 462m", "to": "Congr\u00e9s", "width": 100}, {"color": "blue", "from": "Can Vidalet", "title": "L5 - 858m", "to": "Can Boixeres", "width": 100}, {"color": "purple", "from": "Tetuan", "title": "L2 - 862m", "to": "Passeig de Gr\u00e0cia", "width": 100}, {"color": "purple", "from": "Tetuan", "title": "L2 - 842m", "to": "Monumental", "width": 100}, {"color": "yellow", "from": "Via J\u00falia", "title": "L4 - 873m", "to": "Llucmajor", "width": 100}, {"color": "yellow", "from": "Via J\u00falia", "title": "L4 - 703m", "to": "Trinitat Nova", "width": 100}, {"color": "green", "from": "Les Corts", "title": "L3 - 689m", "to": "Maria Cristina", "width": 100}, {"color": "green", "from": "Les Corts", "title": "L3 - 636m", "to": "Pla\u00e7a del Centre", "width": 100}, {"color": "yellow", "from": "Joanic", "title": "L4 - 828m", "to": "Verdaguer", "width": 100}, {"color": "red", "from": "Torras i Bages", "title": "L1 - 737m", "to": "Sant Andreu", "width": 100}, {"color": "yellow", "from": "Ciutadella | Vila Ol\u00edmpica", "title": "L4 - 897m", "to": "Barceloneta", "width": 100}, {"color": "green", "from": "Diagonal", "title": "L3 - 650m", "to": "Passeig de Gr\u00e0cia", "width": 100}, {"color": "green", "from": "Diagonal", "title": "L3 - 899m", "to": "Fontana", "width": 100}, {"color": "blue", "from": "Diagonal", "title": "L5 - 916m", "to": "Hospital Cl\u00ednic", "width": 100}, {"color": "blue", "from": "Diagonal", "title": "L5 - 869m", "to": "Verdaguer", "width": 100}, {"color": "blue", "from": "Sant Pau | Dos de Maig", "title": "L5 - 662m", "to": "Camp de l\u0027Arpa", "width": 100}, {"color": "blue", "from": "El Coll | La Teixonera", "title": "L5 - 839m", "to": "El Carmel", "width": 100}, {"color": "blue", "from": "El Coll | La Teixonera", "title": "L5 - 618m", "to": "Vall d\u0027Hebron", "width": 100}, {"color": "green", "from": "Penitents", "title": "L3 - 794m", "to": "Vallcarca", "width": 100}, {"color": "green", "from": "Penitents", "title": "L3 - 808m", "to": "Vall d\u0027Hebron", "width": 100}, {"color": "green", "from": "Fontana", "title": "L3 - 471m", "to": "Lesseps", "width": 100}, {"color": "red", "from": "Urquinaona", "title": "L1 - 630m", "to": "Arc de Triomf", "width": 100}, {"color": "yellow", "from": "Urquinaona", "title": "L4 - 602m", "to": "Jaume I", "width": 100}, {"color": "yellow", "from": "Urquinaona", "title": "L4 - 584m", "to": "Passeig de Gr\u00e0cia", "width": 100}, {"color": "red", "from": "Santa Coloma", "title": "L1 - 899m", "to": "Fondo", "width": 100}, {"color": "red", "from": "Florida", "title": "L1 - 617m", "to": "Can Serra", "width": 100}, {"color": "blue", "from": "Sant Ildefons", "title": "L5 - 693m", "to": "Can Boixeres", "width": 100}, {"color": "green", "from": "Trinitat Nova", "title": "L3 - 781m", "to": "Roquetes", "width": 100}, {"color": "green", "from": "Sants Estaci\u00f3", "title": "L3 - 500m", "to": "Pla\u00e7a del Centre", "width": 100}, {"color": "purple", "from": "Universitat", "title": "L2 - 551m", "to": "Sant Antoni", "width": 100}, {"color": "purple", "from": "Universitat", "title": "L2 - 653m", "to": "Passeig de Gr\u00e0cia", "width": 100}, {"color": "green", "from": "Montbau", "title": "L3 - 628m", "to": "Vall d\u0027Hebron", "width": 100}, {"color": "yellow", "from": "Jaume I", "title": "L4 - 679m", "to": "Barceloneta", "width": 100}, {"color": "green", "from": "Palau Reial", "title": "L3 - 640m", "to": "Maria Cristina", "width": 100}, {"color": "black", "from": "Palau Reial", "title": "Walk to Destination", "to": "End", "width": 100}, {"color": "black", "from": "Verdaguer", "title": "Walk to Closest Stop", "to": "Start", "width": 100}, {"color": "blue", "from": "Horta", "title": "L5 - 851m", "to": "El Carmel", "width": 100}, {"color": "green", "from": "Vallcarca", "title": "L3 - 883m", "to": "Lesseps", "width": 100}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -80000,
+            "springConstant": 0.001,
+            "springLength": 250
+        },
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
