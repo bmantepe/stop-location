@@ -27,3 +27,8 @@ Sources
 - https://www.researchgate.net/profile/Carolina-Rojas-17/publication/281744261_Modelacion_en_SIG_de_Indicadores_de_Transporte_en_el_marco_de_la_Sostenibilidad_Urbana/links/55f9c52908aec948c496b080/Modelacion-en-SIG-de-Indicadores-de-Transporte-en-el-marco-de-la-Sostenibilidad-Urbana.pdf
 
 
+# Opcions per calcular temps/ditancies de rutes
+
+- r5py 
+- google API
+- OSRM 
