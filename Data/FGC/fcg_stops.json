@@ -1,0 +1,4535 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168720219,
+                    41.38563194
+                ]
+            },
+            "properties": {
+                "stop_id": "PC2",
+                "stop_name": "Barcelona - Pla\u00e7a Catalunya",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.158030869,
+                    41.39281434
+                ]
+            },
+            "properties": {
+                "stop_id": "PR1",
+                "stop_name": "Proven\u00e7a",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.147133783,
+                    41.40106608
+                ]
+            },
+            "properties": {
+                "stop_id": "SG",
+                "stop_name": "Sant Gervasi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142346041,
+                    41.39852644
+                ]
+            },
+            "properties": {
+                "stop_id": "MN",
+                "stop_name": "Muntaner",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.136433966,
+                    41.39781569
+                ]
+            },
+            "properties": {
+                "stop_id": "BN",
+                "stop_name": "La Bonanova",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.136433966,
+                    41.39781569
+                ]
+            },
+            "properties": {
+                "stop_id": "BN1",
+                "stop_name": "La Bonanova",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130811822,
+                    41.39780042
+                ]
+            },
+            "properties": {
+                "stop_id": "TT2",
+                "stop_name": "Les Tres Torres",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125574875,
+                    41.39849938
+                ]
+            },
+            "properties": {
+                "stop_id": "SR2",
+                "stop_name": "Sarri\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125574875,
+                    41.39849938
+                ]
+            },
+            "properties": {
+                "stop_id": "SR1",
+                "stop_name": "Sarri\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142759094,
+                    41.40351065
+                ]
+            },
+            "properties": {
+                "stop_id": "PD",
+                "stop_name": "P\u00e0dua",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142759094,
+                    41.40351065
+                ]
+            },
+            "properties": {
+                "stop_id": "PD1",
+                "stop_name": "P\u00e0dua",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139151477,
+                    41.40582569
+                ]
+            },
+            "properties": {
+                "stop_id": "EP",
+                "stop_name": "El Putxet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.137162791,
+                    41.40964799
+                ]
+            },
+            "properties": {
+                "stop_id": "TB1",
+                "stop_name": "Av. Tibidabo",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111181541,
+                    41.40921616
+                ]
+            },
+            "properties": {
+                "stop_id": "PF",
+                "stop_name": "Peu del Funicular",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111181541,
+                    41.40921616
+                ]
+            },
+            "properties": {
+                "stop_id": "PF1",
+                "stop_name": "Peu del Funicular",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1058163381683,
+                    41.414111713828
+                ]
+            },
+            "properties": {
+                "stop_id": "VS",
+                "stop_name": "Vallvidrera Superior",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1058163381683,
+                    41.414111713828
+                ]
+            },
+            "properties": {
+                "stop_id": "VS1",
+                "stop_name": "Vallvidrera Superior",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.096936777,
+                    41.42009441
+                ]
+            },
+            "properties": {
+                "stop_id": "VL2",
+                "stop_name": "Baixador de Vallvidrera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.073166144,
+                    41.44487408
+                ]
+            },
+            "properties": {
+                "stop_id": "LF",
+                "stop_name": "La Floresta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.073166144,
+                    41.44487408
+                ]
+            },
+            "properties": {
+                "stop_id": "LF1",
+                "stop_name": "La Floresta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.078203288,
+                    41.46791038
+                ]
+            },
+            "properties": {
+                "stop_id": "SC",
+                "stop_name": "Sant Cugat Centre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.078203288,
+                    41.46791038
+                ]
+            },
+            "properties": {
+                "stop_id": "SC1",
+                "stop_name": "Sant Cugat Centre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.046514894,
+                    41.47620923
+                ]
+            },
+            "properties": {
+                "stop_id": "HG",
+                "stop_name": "Hospital General",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.046514894,
+                    41.47620923
+                ]
+            },
+            "properties": {
+                "stop_id": "HG1",
+                "stop_name": "Hospital General",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.031357969,
+                    41.48628798
+                ]
+            },
+            "properties": {
+                "stop_id": "RB",
+                "stop_name": "Rub\u00ed Centre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.031357969,
+                    41.48628798
+                ]
+            },
+            "properties": {
+                "stop_id": "RB2",
+                "stop_name": "Rub\u00ed Centre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.033582202,
+                    41.52846982
+                ]
+            },
+            "properties": {
+                "stop_id": "FN1",
+                "stop_name": "Les Fonts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.007525272,
+                    41.55974631
+                ]
+            },
+            "properties": {
+                "stop_id": "TR",
+                "stop_name": "Terrassa - Rambla",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.007525272,
+                    41.55974631
+                ]
+            },
+            "properties": {
+                "stop_id": "TR2",
+                "stop_name": "Terrassa - Rambla",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.072928,
+                    41.481248
+                ]
+            },
+            "properties": {
+                "stop_id": "VO",
+                "stop_name": "Volpelleres",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.076498641,
+                    41.49015388
+                ]
+            },
+            "properties": {
+                "stop_id": "SJ2",
+                "stop_name": "Sant Joan",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102510441,
+                    41.50285282
+                ]
+            },
+            "properties": {
+                "stop_id": "UN1",
+                "stop_name": "Universitat Aut\u00f2noma",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.088722533,
+                    41.52999155
+                ]
+            },
+            "properties": {
+                "stop_id": "SQ",
+                "stop_name": "Sant Quirze",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.088722533,
+                    41.52999155
+                ]
+            },
+            "properties": {
+                "stop_id": "SQ1",
+                "stop_name": "Sant Quirze",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0190489,
+                    41.5633063
+                ]
+            },
+            "properties": {
+                "stop_id": "VP",
+                "stop_name": "Vallparad\u00eds Universitat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0190489,
+                    41.5633063
+                ]
+            },
+            "properties": {
+                "stop_id": "VP2",
+                "stop_name": "Vallparad\u00eds Universitat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.015487,
+                    41.5701675
+                ]
+            },
+            "properties": {
+                "stop_id": "EN",
+                "stop_name": "Terrassa  Estaci\u00f3 del nord",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0134592,
+                    41.5801339
+                ]
+            },
+            "properties": {
+                "stop_id": "NA",
+                "stop_name": "Terrassa Nacions Unides",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0134592,
+                    41.5801339
+                ]
+            },
+            "properties": {
+                "stop_id": "NA2",
+                "stop_name": "Terrassa Nacions Unides",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148458333,
+                    41.3747199
+                ]
+            },
+            "properties": {
+                "stop_id": "PE4",
+                "stop_name": "Barcelona - Pla\u00e7a Espanya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148458333,
+                    41.3747199
+                ]
+            },
+            "properties": {
+                "stop_id": "PE3",
+                "stop_name": "Barcelona - Pla\u00e7a Espanya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.138879447,
+                    41.36748768
+                ]
+            },
+            "properties": {
+                "stop_id": "MG2",
+                "stop_name": "Mag\u00f2ria La Campana",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.117431558,
+                    41.35488589
+                ]
+            },
+            "properties": {
+                "stop_id": "GO1",
+                "stop_name": "Gornal",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.10991665,
+                    41.36070098
+                ]
+            },
+            "properties": {
+                "stop_id": "SP1",
+                "stop_name": "Sant Josep",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102709519,
+                    41.35793378
+                ]
+            },
+            "properties": {
+                "stop_id": "LH4",
+                "stop_name": "L'Hospitalet Av. Carrilet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.085251402,
+                    41.35306747
+                ]
+            },
+            "properties": {
+                "stop_id": "AL",
+                "stop_name": "Almeda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.071263627,
+                    41.35147828
+                ]
+            },
+            "properties": {
+                "stop_id": "CO",
+                "stop_name": "Cornell\u00e0 Riera",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.071263627,
+                    41.35147828
+                ]
+            },
+            "properties": {
+                "stop_id": "CO1",
+                "stop_name": "Cornell\u00e0 Riera",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.042855988,
+                    41.34856143
+                ]
+            },
+            "properties": {
+                "stop_id": "BO1",
+                "stop_name": "Sant Boi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.124199344,
+                    41.35655892
+                ]
+            },
+            "properties": {
+                "stop_id": "EU1",
+                "stop_name": "Europa | Fira",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.031859416,
+                    41.36386336
+                ]
+            },
+            "properties": {
+                "stop_id": "CG",
+                "stop_name": "Col\u00f2nia G\u00fcell",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.023520241,
+                    41.37064766
+                ]
+            },
+            "properties": {
+                "stop_id": "CL",
+                "stop_name": "Santa Coloma de Cervell\u00f3",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.023520241,
+                    41.37064766
+                ]
+            },
+            "properties": {
+                "stop_id": "CL2",
+                "stop_name": "Santa Coloma de Cervell\u00f3",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.005346458,
+                    41.39882061
+                ]
+            },
+            "properties": {
+                "stop_id": "CR",
+                "stop_name": "Can Ros",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.005346458,
+                    41.39882061
+                ]
+            },
+            "properties": {
+                "stop_id": "CR1",
+                "stop_name": "Can Ros",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.005346458,
+                    41.39882061
+                ]
+            },
+            "properties": {
+                "stop_id": "CR2",
+                "stop_name": "Can Ros",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.001715183,
+                    41.40629238
+                ]
+            },
+            "properties": {
+                "stop_id": "QC",
+                "stop_name": "Quatre Camins",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.001715183,
+                    41.40629238
+                ]
+            },
+            "properties": {
+                "stop_id": "QC3",
+                "stop_name": "Quatre Camins",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.995677605,
+                    41.42078685
+                ]
+            },
+            "properties": {
+                "stop_id": "PA2",
+                "stop_name": "Pallej\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.973673502,
+                    41.44648001
+                ]
+            },
+            "properties": {
+                "stop_id": "SA",
+                "stop_name": "Sant Andreu de la Barca",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.938956855,
+                    41.4758714
+                ]
+            },
+            "properties": {
+                "stop_id": "MV2",
+                "stop_name": "Martorell Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.906805399,
+                    41.52256137
+                ]
+            },
+            "properties": {
+                "stop_id": "AB1",
+                "stop_name": "Abrera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.906805399,
+                    41.52256137
+                ]
+            },
+            "properties": {
+                "stop_id": "AB2",
+                "stop_name": "Abrera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.888618922,
+                    41.54105908
+                ]
+            },
+            "properties": {
+                "stop_id": "OL1",
+                "stop_name": "Olesa de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.888618922,
+                    41.54105908
+                ]
+            },
+            "properties": {
+                "stop_id": "OL2",
+                "stop_name": "Olesa de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.853361605,
+                    41.59119812
+                ]
+            },
+            "properties": {
+                "stop_id": "AE1",
+                "stop_name": "Montserrat-Aeri",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.84919403,
+                    41.6103596
+                ]
+            },
+            "properties": {
+                "stop_id": "MO2",
+                "stop_name": "Monistrol de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.84919403,
+                    41.6103596
+                ]
+            },
+            "properties": {
+                "stop_id": "MO4",
+                "stop_name": "Monistrol de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8596058,
+                    41.66791016
+                ]
+            },
+            "properties": {
+                "stop_id": "SV",
+                "stop_name": "Sant Vicen\u00e7-Castellgal\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8596058,
+                    41.66791016
+                ]
+            },
+            "properties": {
+                "stop_id": "SV1",
+                "stop_name": "Sant Vicen\u00e7-Castellgal\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.83398595,
+                    41.72436991
+                ]
+            },
+            "properties": {
+                "stop_id": "VI",
+                "stop_name": "Manresa Viladordis",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.832986,
+                    41.73224
+                ]
+            },
+            "properties": {
+                "stop_id": "MA",
+                "stop_name": "Manresa-Alta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.832986,
+                    41.73224
+                ]
+            },
+            "properties": {
+                "stop_id": "MA7",
+                "stop_name": "Manresa-Alta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.827904,
+                    41.731457
+                ]
+            },
+            "properties": {
+                "stop_id": "MB",
+                "stop_name": "Manresa-Baixador",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8724438,
+                    41.49767605
+                ]
+            },
+            "properties": {
+                "stop_id": "SE",
+                "stop_name": "Sant Esteve Sesrovires",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8724438,
+                    41.49767605
+                ]
+            },
+            "properties": {
+                "stop_id": "SE2",
+                "stop_name": "Sant Esteve Sesrovires",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.838788972,
+                    41.5017639
+                ]
+            },
+            "properties": {
+                "stop_id": "BE",
+                "stop_name": "La Beguda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.830813063,
+                    41.50222357
+                ]
+            },
+            "properties": {
+                "stop_id": "CP",
+                "stop_name": "Can Parellada",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.812625072,
+                    41.502884
+                ]
+            },
+            "properties": {
+                "stop_id": "MQ1",
+                "stop_name": "Masquefa",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.812625072,
+                    41.502884
+                ]
+            },
+            "properties": {
+                "stop_id": "MQ2",
+                "stop_name": "Masquefa",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.75450443,
+                    41.52591339
+                ]
+            },
+            "properties": {
+                "stop_id": "PI1",
+                "stop_name": "Piera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.677906247,
+                    41.55461094
+                ]
+            },
+            "properties": {
+                "stop_id": "PO2",
+                "stop_name": "La Pobla de Claramunt",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.629951133,
+                    41.57802651
+                ]
+            },
+            "properties": {
+                "stop_id": "IG",
+                "stop_name": "Igualada",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.629951133,
+                    41.57802651
+                ]
+            },
+            "properties": {
+                "stop_id": "IG1",
+                "stop_name": "Igualada",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.836497527,
+                    41.59225373
+                ]
+            },
+            "properties": {
+                "stop_id": "MM2",
+                "stop_name": "Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.633672,
+                    41.620098
+                ]
+            },
+            "properties": {
+                "stop_id": "LE",
+                "stop_name": "Lleida",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.764899,
+                    41.717644
+                ]
+            },
+            "properties": {
+                "stop_id": "RM1",
+                "stop_name": "T\u00e9rmens",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.805247,
+                    41.755094
+                ]
+            },
+            "properties": {
+                "stop_id": "VF1",
+                "stop_name": "Vallfogona de Balaguer",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.814761,
+                    41.789215
+                ]
+            },
+            "properties": {
+                "stop_id": "BG",
+                "stop_name": "Balaguer",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.812079,
+                    41.823301
+                ]
+            },
+            "properties": {
+                "stop_id": "GB",
+                "stop_name": "Gerb",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.832571,
+                    41.866379
+                ]
+            },
+            "properties": {
+                "stop_id": "SM",
+                "stop_name": "St. Lloren\u00e7 de Montgai",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.830401,
+                    41.91207
+                ]
+            },
+            "properties": {
+                "stop_id": "LS1",
+                "stop_name": "Vilanova de la Sal",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.851596,
+                    42.006741
+                ]
+            },
+            "properties": {
+                "stop_id": "AR",
+                "stop_name": "\u00c0ger",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.851596,
+                    42.006741
+                ]
+            },
+            "properties": {
+                "stop_id": "AR1",
+                "stop_name": "\u00c0ger",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.882707,
+                    42.058631
+                ]
+            },
+            "properties": {
+                "stop_id": "LL",
+                "stop_name": "Cellers-Llimiana",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.882707,
+                    42.058631
+                ]
+            },
+            "properties": {
+                "stop_id": "LL1",
+                "stop_name": "Cellers-Llimiana",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.88809,
+                    42.101399
+                ]
+            },
+            "properties": {
+                "stop_id": "GT1",
+                "stop_name": "Guardia de Tremp",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.892435,
+                    42.147002
+                ]
+            },
+            "properties": {
+                "stop_id": "PT1",
+                "stop_name": "Palau de Noguera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.891057,
+                    42.167348
+                ]
+            },
+            "properties": {
+                "stop_id": "TP",
+                "stop_name": "Tremp",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.940463,
+                    42.206835
+                ]
+            },
+            "properties": {
+                "stop_id": "SD",
+                "stop_name": "Sal\u00e0s de Pallars",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.965917,
+                    42.239877
+                ]
+            },
+            "properties": {
+                "stop_id": "PS1",
+                "stop_name": "La Pobla de Segur",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111263,
+                    41.409328
+                ]
+            },
+            "properties": {
+                "stop_id": "VR",
+                "stop_name": "Vallvidrera Inferior",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111263,
+                    41.409328
+                ]
+            },
+            "properties": {
+                "stop_id": "VR1",
+                "stop_name": "Vallvidrera Inferior",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100463866,
+                    41.542522966
+                ]
+            },
+            "properties": {
+                "stop_id": "CF",
+                "stop_name": "Can Feu - Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100463866,
+                    41.542522966
+                ]
+            },
+            "properties": {
+                "stop_id": "CF1",
+                "stop_name": "Can Feu - Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100385,
+                    41.554954
+                ]
+            },
+            "properties": {
+                "stop_id": "CT1",
+                "stop_name": "La Creu Alta",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.089499,
+                    41.571291
+                ]
+            },
+            "properties": {
+                "stop_id": "PN2",
+                "stop_name": "Sabadell Parc del Nord",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1547279163581,
+                    42.397328515116
+                ]
+            },
+            "properties": {
+                "stop_id": "NU",
+                "stop_name": "Nuria",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1547279163581,
+                    42.397328515116
+                ]
+            },
+            "properties": {
+                "stop_id": "NU1",
+                "stop_name": "Nuria",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1663511165341,
+                    42.351513859462
+                ]
+            },
+            "properties": {
+                "stop_id": "QUE",
+                "stop_name": "Queralbs",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1663511165341,
+                    42.351513859462
+                ]
+            },
+            "properties": {
+                "stop_id": "QUE1",
+                "stop_name": "Queralbs",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1663747137233,
+                    42.30040204821
+                ]
+            },
+            "properties": {
+                "stop_id": "RR",
+                "stop_name": "Ribes-Enlla\u00e7",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.652806,
+                    41.622808
+                ]
+            },
+            "properties": {
+                "stop_id": "PG1",
+                "stop_name": "Pol\u00edgon industrial del Segre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168720219,
+                    41.38563194
+                ]
+            },
+            "properties": {
+                "stop_id": "PC1",
+                "stop_name": "Barcelona - Pla\u00e7a Catalunya",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168720219,
+                    41.38563194
+                ]
+            },
+            "properties": {
+                "stop_id": "PC3",
+                "stop_name": "Barcelona - Pla\u00e7a Catalunya",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168720219,
+                    41.38563194
+                ]
+            },
+            "properties": {
+                "stop_id": "PC5",
+                "stop_name": "Barcelona - Pla\u00e7a Catalunya",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.158030869,
+                    41.39281434
+                ]
+            },
+            "properties": {
+                "stop_id": "PR",
+                "stop_name": "Proven\u00e7a",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.158030869,
+                    41.39281434
+                ]
+            },
+            "properties": {
+                "stop_id": "PR2",
+                "stop_name": "Proven\u00e7a",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.147133783,
+                    41.40106608
+                ]
+            },
+            "properties": {
+                "stop_id": "SG1",
+                "stop_name": "Sant Gervasi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.147133783,
+                    41.40106608
+                ]
+            },
+            "properties": {
+                "stop_id": "SG2",
+                "stop_name": "Sant Gervasi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142346041,
+                    41.39852644
+                ]
+            },
+            "properties": {
+                "stop_id": "MN1",
+                "stop_name": "Muntaner",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130811822,
+                    41.39780042
+                ]
+            },
+            "properties": {
+                "stop_id": "TT",
+                "stop_name": "Les Tres Torres",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130811822,
+                    41.39780042
+                ]
+            },
+            "properties": {
+                "stop_id": "TT1",
+                "stop_name": "Les Tres Torres",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.146754722,
+                    41.4016938
+                ]
+            },
+            "properties": {
+                "stop_id": "PM",
+                "stop_name": "Pl. Molina",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.146754722,
+                    41.4016938
+                ]
+            },
+            "properties": {
+                "stop_id": "PM1",
+                "stop_name": "Pl. Molina",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.146754722,
+                    41.4016938
+                ]
+            },
+            "properties": {
+                "stop_id": "PM2",
+                "stop_name": "Pl. Molina",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.137162791,
+                    41.40964799
+                ]
+            },
+            "properties": {
+                "stop_id": "TB",
+                "stop_name": "Av. Tibidabo",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.111181541,
+                    41.40921616
+                ]
+            },
+            "properties": {
+                "stop_id": "PF2",
+                "stop_name": "Peu del Funicular",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.096936777,
+                    41.42009441
+                ]
+            },
+            "properties": {
+                "stop_id": "VL1",
+                "stop_name": "Baixador de Vallvidrera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.073166144,
+                    41.44487408
+                ]
+            },
+            "properties": {
+                "stop_id": "LF2",
+                "stop_name": "La Floresta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.06831203,
+                    41.45784156
+                ]
+            },
+            "properties": {
+                "stop_id": "VD2",
+                "stop_name": "Valldoreix",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.078203288,
+                    41.46791038
+                ]
+            },
+            "properties": {
+                "stop_id": "SC2",
+                "stop_name": "Sant Cugat Centre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.061380927,
+                    41.46936873
+                ]
+            },
+            "properties": {
+                "stop_id": "MS",
+                "stop_name": "Mira-Sol",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.061380927,
+                    41.46936873
+                ]
+            },
+            "properties": {
+                "stop_id": "MS1",
+                "stop_name": "Mira-Sol",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.046514894,
+                    41.47620923
+                ]
+            },
+            "properties": {
+                "stop_id": "HG2",
+                "stop_name": "Hospital General",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.007525272,
+                    41.55974631
+                ]
+            },
+            "properties": {
+                "stop_id": "TR1",
+                "stop_name": "Terrassa - Rambla",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.076498641,
+                    41.49015388
+                ]
+            },
+            "properties": {
+                "stop_id": "SJ",
+                "stop_name": "Sant Joan",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.076498641,
+                    41.49015388
+                ]
+            },
+            "properties": {
+                "stop_id": "SJ1",
+                "stop_name": "Sant Joan",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.090556583,
+                    41.50085844
+                ]
+            },
+            "properties": {
+                "stop_id": "BT",
+                "stop_name": "Bellaterra",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.090556583,
+                    41.50085844
+                ]
+            },
+            "properties": {
+                "stop_id": "BT2",
+                "stop_name": "Bellaterra",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0190489,
+                    41.5633063
+                ]
+            },
+            "properties": {
+                "stop_id": "VP1",
+                "stop_name": "Vallparad\u00eds Universitat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.015487,
+                    41.5701675
+                ]
+            },
+            "properties": {
+                "stop_id": "EN1",
+                "stop_name": "Terrassa  Estaci\u00f3 del nord",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0134592,
+                    41.5801339
+                ]
+            },
+            "properties": {
+                "stop_id": "NA1",
+                "stop_name": "Terrassa Nacions Unides",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148458333,
+                    41.3747199
+                ]
+            },
+            "properties": {
+                "stop_id": "PE",
+                "stop_name": "Barcelona - Pla\u00e7a Espanya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148458333,
+                    41.3747199
+                ]
+            },
+            "properties": {
+                "stop_id": "PE2",
+                "stop_name": "Barcelona - Pla\u00e7a Espanya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.148458333,
+                    41.3747199
+                ]
+            },
+            "properties": {
+                "stop_id": "PE1",
+                "stop_name": "Barcelona - Pla\u00e7a Espanya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.138879447,
+                    41.36748768
+                ]
+            },
+            "properties": {
+                "stop_id": "MG1",
+                "stop_name": "Mag\u00f2ria La Campana",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130023266,
+                    41.36090867
+                ]
+            },
+            "properties": {
+                "stop_id": "IC1",
+                "stop_name": "Ildefons Cerd\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130023266,
+                    41.36090867
+                ]
+            },
+            "properties": {
+                "stop_id": "IC2",
+                "stop_name": "Ildefons Cerd\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.117431558,
+                    41.35488589
+                ]
+            },
+            "properties": {
+                "stop_id": "GO",
+                "stop_name": "Gornal",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.117431558,
+                    41.35488589
+                ]
+            },
+            "properties": {
+                "stop_id": "GO2",
+                "stop_name": "Gornal",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.10991665,
+                    41.36070098
+                ]
+            },
+            "properties": {
+                "stop_id": "SP",
+                "stop_name": "Sant Josep",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102709519,
+                    41.35793378
+                ]
+            },
+            "properties": {
+                "stop_id": "LH",
+                "stop_name": "L'Hospitalet Av. Carrilet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102709519,
+                    41.35793378
+                ]
+            },
+            "properties": {
+                "stop_id": "LH2",
+                "stop_name": "L'Hospitalet Av. Carrilet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102709519,
+                    41.35793378
+                ]
+            },
+            "properties": {
+                "stop_id": "LH3",
+                "stop_name": "L'Hospitalet Av. Carrilet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.071263627,
+                    41.35147828
+                ]
+            },
+            "properties": {
+                "stop_id": "CO2",
+                "stop_name": "Cornell\u00e0 Riera",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.042855988,
+                    41.34856143
+                ]
+            },
+            "properties": {
+                "stop_id": "BO",
+                "stop_name": "Sant Boi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.042855988,
+                    41.34856143
+                ]
+            },
+            "properties": {
+                "stop_id": "BO2",
+                "stop_name": "Sant Boi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.042855988,
+                    41.34856143
+                ]
+            },
+            "properties": {
+                "stop_id": "BO6",
+                "stop_name": "Sant Boi",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.925294975,
+                    41.4792845
+                ]
+            },
+            "properties": {
+                "stop_id": "MC",
+                "stop_name": "Martorell Central",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.925294975,
+                    41.4792845
+                ]
+            },
+            "properties": {
+                "stop_id": "MC1",
+                "stop_name": "Martorell Central",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.031859416,
+                    41.36386336
+                ]
+            },
+            "properties": {
+                "stop_id": "CG2",
+                "stop_name": "Col\u00f2nia G\u00fcell",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.035276936,
+                    41.35751473
+                ]
+            },
+            "properties": {
+                "stop_id": "ML2",
+                "stop_name": "Mol\u00ed Nou - Ciutat Cooperativa",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.012398952,
+                    41.38810839
+                ]
+            },
+            "properties": {
+                "stop_id": "VH",
+                "stop_name": "Sant Vicen\u00e7 dels Horts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.001715183,
+                    41.40629238
+                ]
+            },
+            "properties": {
+                "stop_id": "QC4",
+                "stop_name": "Quatre Camins",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.995677605,
+                    41.42078685
+                ]
+            },
+            "properties": {
+                "stop_id": "PA",
+                "stop_name": "Pallej\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.973673502,
+                    41.44648001
+                ]
+            },
+            "properties": {
+                "stop_id": "SA2",
+                "stop_name": "Sant Andreu de la Barca",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.9622947,
+                    41.45588074
+                ]
+            },
+            "properties": {
+                "stop_id": "PL1",
+                "stop_name": "El Palau",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.938956855,
+                    41.4758714
+                ]
+            },
+            "properties": {
+                "stop_id": "MV",
+                "stop_name": "Martorell Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.918677519,
+                    41.48396936
+                ]
+            },
+            "properties": {
+                "stop_id": "ME",
+                "stop_name": "Martorell Enlla\u00e7",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.918677519,
+                    41.48396936
+                ]
+            },
+            "properties": {
+                "stop_id": "ME2",
+                "stop_name": "Martorell Enlla\u00e7",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.888618922,
+                    41.54105908
+                ]
+            },
+            "properties": {
+                "stop_id": "OL4",
+                "stop_name": "Olesa de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8596058,
+                    41.66791016
+                ]
+            },
+            "properties": {
+                "stop_id": "SV3",
+                "stop_name": "Sant Vicen\u00e7-Castellgal\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8596058,
+                    41.66791016
+                ]
+            },
+            "properties": {
+                "stop_id": "SV4",
+                "stop_name": "Sant Vicen\u00e7-Castellgal\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.832986,
+                    41.73224
+                ]
+            },
+            "properties": {
+                "stop_id": "MA1",
+                "stop_name": "Manresa-Alta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.832986,
+                    41.73224
+                ]
+            },
+            "properties": {
+                "stop_id": "MA2",
+                "stop_name": "Manresa-Alta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.832986,
+                    41.73224
+                ]
+            },
+            "properties": {
+                "stop_id": "MA3",
+                "stop_name": "Manresa-Alta",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.827904,
+                    41.731457
+                ]
+            },
+            "properties": {
+                "stop_id": "MB1",
+                "stop_name": "Manresa-Baixador",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.812625072,
+                    41.502884
+                ]
+            },
+            "properties": {
+                "stop_id": "MQ",
+                "stop_name": "Masquefa",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.75450443,
+                    41.52591339
+                ]
+            },
+            "properties": {
+                "stop_id": "PI",
+                "stop_name": "Piera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.709010719,
+                    41.52025979
+                ]
+            },
+            "properties": {
+                "stop_id": "VA1",
+                "stop_name": "Vallbona d'Anoia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.695130725,
+                    41.52153533
+                ]
+            },
+            "properties": {
+                "stop_id": "CA2",
+                "stop_name": "Capellades",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.677906247,
+                    41.55461094
+                ]
+            },
+            "properties": {
+                "stop_id": "PO",
+                "stop_name": "La Pobla de Claramunt",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.642009216,
+                    41.57331472
+                ]
+            },
+            "properties": {
+                "stop_id": "VN",
+                "stop_name": "Vilanova del Cam\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.642009216,
+                    41.57331472
+                ]
+            },
+            "properties": {
+                "stop_id": "VN1",
+                "stop_name": "Vilanova del Cam\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.843723316,
+                    41.61562791
+                ]
+            },
+            "properties": {
+                "stop_id": "MP1",
+                "stop_name": "Monistrol-Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.836497527,
+                    41.59225373
+                ]
+            },
+            "properties": {
+                "stop_id": "MM",
+                "stop_name": "Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.633672,
+                    41.620098
+                ]
+            },
+            "properties": {
+                "stop_id": "LE2",
+                "stop_name": "Lleida",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.686458,
+                    41.654738
+                ]
+            },
+            "properties": {
+                "stop_id": "AT",
+                "stop_name": "Alcoletge",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.727903,
+                    41.687347
+                ]
+            },
+            "properties": {
+                "stop_id": "VB",
+                "stop_name": "Vilanova de la Barca",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.727903,
+                    41.687347
+                ]
+            },
+            "properties": {
+                "stop_id": "VB1",
+                "stop_name": "Vilanova de la Barca",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.805247,
+                    41.755094
+                ]
+            },
+            "properties": {
+                "stop_id": "VF",
+                "stop_name": "Vallfogona de Balaguer",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.814761,
+                    41.789215
+                ]
+            },
+            "properties": {
+                "stop_id": "BG2",
+                "stop_name": "Balaguer",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.832571,
+                    41.866379
+                ]
+            },
+            "properties": {
+                "stop_id": "SM1",
+                "stop_name": "St. Lloren\u00e7 de Montgai",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.88809,
+                    42.101399
+                ]
+            },
+            "properties": {
+                "stop_id": "GT",
+                "stop_name": "Guardia de Tremp",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.891057,
+                    42.167348
+                ]
+            },
+            "properties": {
+                "stop_id": "TP1",
+                "stop_name": "Tremp",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.940463,
+                    42.206835
+                ]
+            },
+            "properties": {
+                "stop_id": "SD1",
+                "stop_name": "Sal\u00e0s de Pallars",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1088815,
+                    41.5474198
+                ]
+            },
+            "properties": {
+                "stop_id": "PJ1",
+                "stop_name": "Sabadell Pla\u00e7a Major",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1088815,
+                    41.5474198
+                ]
+            },
+            "properties": {
+                "stop_id": "PJ2",
+                "stop_name": "Sabadell Pla\u00e7a Major",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.096657,
+                    41.561225
+                ]
+            },
+            "properties": {
+                "stop_id": "NO1",
+                "stop_name": "Sabadell Nord",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.089499,
+                    41.571291
+                ]
+            },
+            "properties": {
+                "stop_id": "PN",
+                "stop_name": "Sabadell Parc del Nord",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168720219,
+                    41.38563194
+                ]
+            },
+            "properties": {
+                "stop_id": "PC",
+                "stop_name": "Barcelona - Pla\u00e7a Catalunya",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168720219,
+                    41.38563194
+                ]
+            },
+            "properties": {
+                "stop_id": "PC4",
+                "stop_name": "Barcelona - Pla\u00e7a Catalunya",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.152662325,
+                    41.39909823
+                ]
+            },
+            "properties": {
+                "stop_id": "GR",
+                "stop_name": "Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.152662325,
+                    41.39909823
+                ]
+            },
+            "properties": {
+                "stop_id": "GR1",
+                "stop_name": "Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.152662325,
+                    41.39909823
+                ]
+            },
+            "properties": {
+                "stop_id": "GR2",
+                "stop_name": "Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.152662325,
+                    41.39909823
+                ]
+            },
+            "properties": {
+                "stop_id": "GR3",
+                "stop_name": "Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.152662325,
+                    41.39909823
+                ]
+            },
+            "properties": {
+                "stop_id": "GR4",
+                "stop_name": "Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142346041,
+                    41.39852644
+                ]
+            },
+            "properties": {
+                "stop_id": "MN2",
+                "stop_name": "Muntaner",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.136433966,
+                    41.39781569
+                ]
+            },
+            "properties": {
+                "stop_id": "BN2",
+                "stop_name": "La Bonanova",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125574875,
+                    41.39849938
+                ]
+            },
+            "properties": {
+                "stop_id": "SR",
+                "stop_name": "Sarri\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.125574875,
+                    41.39849938
+                ]
+            },
+            "properties": {
+                "stop_id": "SR4",
+                "stop_name": "Sarri\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.118932325,
+                    41.39874599
+                ]
+            },
+            "properties": {
+                "stop_id": "RE",
+                "stop_name": "Reina Elisenda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.118932325,
+                    41.39874599
+                ]
+            },
+            "properties": {
+                "stop_id": "RE1",
+                "stop_name": "Reina Elisenda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.142759094,
+                    41.40351065
+                ]
+            },
+            "properties": {
+                "stop_id": "PD2",
+                "stop_name": "P\u00e0dua",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139151477,
+                    41.40582569
+                ]
+            },
+            "properties": {
+                "stop_id": "EP1",
+                "stop_name": "El Putxet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139151477,
+                    41.40582569
+                ]
+            },
+            "properties": {
+                "stop_id": "EP2",
+                "stop_name": "El Putxet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.096936777,
+                    41.42009441
+                ]
+            },
+            "properties": {
+                "stop_id": "VL",
+                "stop_name": "Baixador de Vallvidrera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0916176,
+                    41.42740264
+                ]
+            },
+            "properties": {
+                "stop_id": "LP",
+                "stop_name": "Les Planes",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0916176,
+                    41.42740264
+                ]
+            },
+            "properties": {
+                "stop_id": "LP1",
+                "stop_name": "Les Planes",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.0916176,
+                    41.42740264
+                ]
+            },
+            "properties": {
+                "stop_id": "LP2",
+                "stop_name": "Les Planes",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.06831203,
+                    41.45784156
+                ]
+            },
+            "properties": {
+                "stop_id": "VD",
+                "stop_name": "Valldoreix",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.06831203,
+                    41.45784156
+                ]
+            },
+            "properties": {
+                "stop_id": "VD1",
+                "stop_name": "Valldoreix",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.061380927,
+                    41.46936873
+                ]
+            },
+            "properties": {
+                "stop_id": "MS2",
+                "stop_name": "Mira-Sol",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.031357969,
+                    41.48628798
+                ]
+            },
+            "properties": {
+                "stop_id": "RB1",
+                "stop_name": "Rub\u00ed Centre",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.033582202,
+                    41.52846982
+                ]
+            },
+            "properties": {
+                "stop_id": "FN",
+                "stop_name": "Les Fonts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.033582202,
+                    41.52846982
+                ]
+            },
+            "properties": {
+                "stop_id": "FN2",
+                "stop_name": "Les Fonts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.072928,
+                    41.481248
+                ]
+            },
+            "properties": {
+                "stop_id": "VO1",
+                "stop_name": "Volpelleres",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.072928,
+                    41.481248
+                ]
+            },
+            "properties": {
+                "stop_id": "VO2",
+                "stop_name": "Volpelleres",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.090556583,
+                    41.50085844
+                ]
+            },
+            "properties": {
+                "stop_id": "BT1",
+                "stop_name": "Bellaterra",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102510441,
+                    41.50285282
+                ]
+            },
+            "properties": {
+                "stop_id": "UN",
+                "stop_name": "Universitat Aut\u00f2noma",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102510441,
+                    41.50285282
+                ]
+            },
+            "properties": {
+                "stop_id": "UN2",
+                "stop_name": "Universitat Aut\u00f2noma",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.088722533,
+                    41.52999155
+                ]
+            },
+            "properties": {
+                "stop_id": "SQ2",
+                "stop_name": "Sant Quirze",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.015487,
+                    41.5701675
+                ]
+            },
+            "properties": {
+                "stop_id": "EN2",
+                "stop_name": "Terrassa  Estaci\u00f3 del nord",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.138879447,
+                    41.36748768
+                ]
+            },
+            "properties": {
+                "stop_id": "MG",
+                "stop_name": "Mag\u00f2ria La Campana",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.130023266,
+                    41.36090867
+                ]
+            },
+            "properties": {
+                "stop_id": "IC",
+                "stop_name": "Ildefons Cerd\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.10991665,
+                    41.36070098
+                ]
+            },
+            "properties": {
+                "stop_id": "SP2",
+                "stop_name": "Sant Josep",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.102709519,
+                    41.35793378
+                ]
+            },
+            "properties": {
+                "stop_id": "LH1",
+                "stop_name": "L'Hospitalet Av. Carrilet",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.085251402,
+                    41.35306747
+                ]
+            },
+            "properties": {
+                "stop_id": "AL1",
+                "stop_name": "Almeda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.085251402,
+                    41.35306747
+                ]
+            },
+            "properties": {
+                "stop_id": "AL2",
+                "stop_name": "Almeda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.124199344,
+                    41.35655892
+                ]
+            },
+            "properties": {
+                "stop_id": "EU",
+                "stop_name": "Europa | Fira",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.124199344,
+                    41.35655892
+                ]
+            },
+            "properties": {
+                "stop_id": "EU2",
+                "stop_name": "Europa | Fira",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.925294975,
+                    41.4792845
+                ]
+            },
+            "properties": {
+                "stop_id": "MC2",
+                "stop_name": "Martorell Central",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.031859416,
+                    41.36386336
+                ]
+            },
+            "properties": {
+                "stop_id": "CG1",
+                "stop_name": "Col\u00f2nia G\u00fcell",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.035276936,
+                    41.35751473
+                ]
+            },
+            "properties": {
+                "stop_id": "ML",
+                "stop_name": "Mol\u00ed Nou - Ciutat Cooperativa",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.035276936,
+                    41.35751473
+                ]
+            },
+            "properties": {
+                "stop_id": "ML1",
+                "stop_name": "Mol\u00ed Nou - Ciutat Cooperativa",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.023520241,
+                    41.37064766
+                ]
+            },
+            "properties": {
+                "stop_id": "CL1",
+                "stop_name": "Santa Coloma de Cervell\u00f3",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.012398952,
+                    41.38810839
+                ]
+            },
+            "properties": {
+                "stop_id": "VH1",
+                "stop_name": "Sant Vicen\u00e7 dels Horts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.012398952,
+                    41.38810839
+                ]
+            },
+            "properties": {
+                "stop_id": "VH2",
+                "stop_name": "Sant Vicen\u00e7 dels Horts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.012398952,
+                    41.38810839
+                ]
+            },
+            "properties": {
+                "stop_id": "VH3",
+                "stop_name": "Sant Vicen\u00e7 dels Horts",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.995677605,
+                    41.42078685
+                ]
+            },
+            "properties": {
+                "stop_id": "PA1",
+                "stop_name": "Pallej\u00e0",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.973673502,
+                    41.44648001
+                ]
+            },
+            "properties": {
+                "stop_id": "SA1",
+                "stop_name": "Sant Andreu de la Barca",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.9622947,
+                    41.45588074
+                ]
+            },
+            "properties": {
+                "stop_id": "PL",
+                "stop_name": "El Palau",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.9622947,
+                    41.45588074
+                ]
+            },
+            "properties": {
+                "stop_id": "PL2",
+                "stop_name": "El Palau",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.938956855,
+                    41.4758714
+                ]
+            },
+            "properties": {
+                "stop_id": "MV1",
+                "stop_name": "Martorell Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.918677519,
+                    41.48396936
+                ]
+            },
+            "properties": {
+                "stop_id": "ME1",
+                "stop_name": "Martorell Enlla\u00e7",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.906805399,
+                    41.52256137
+                ]
+            },
+            "properties": {
+                "stop_id": "AB",
+                "stop_name": "Abrera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.888618922,
+                    41.54105908
+                ]
+            },
+            "properties": {
+                "stop_id": "OL",
+                "stop_name": "Olesa de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.853361605,
+                    41.59119812
+                ]
+            },
+            "properties": {
+                "stop_id": "AE",
+                "stop_name": "Montserrat-Aeri",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.84919403,
+                    41.6103596
+                ]
+            },
+            "properties": {
+                "stop_id": "MO",
+                "stop_name": "Monistrol de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.84919403,
+                    41.6103596
+                ]
+            },
+            "properties": {
+                "stop_id": "MO1",
+                "stop_name": "Monistrol de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.84919403,
+                    41.6103596
+                ]
+            },
+            "properties": {
+                "stop_id": "MO3",
+                "stop_name": "Monistrol de Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.854793522,
+                    41.64051706
+                ]
+            },
+            "properties": {
+                "stop_id": "CB",
+                "stop_name": "Castellbell i El Vilar",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.854793522,
+                    41.64051706
+                ]
+            },
+            "properties": {
+                "stop_id": "CB1",
+                "stop_name": "Castellbell i El Vilar",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8596058,
+                    41.66791016
+                ]
+            },
+            "properties": {
+                "stop_id": "SV2",
+                "stop_name": "Sant Vicen\u00e7-Castellgal\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.83398595,
+                    41.72436991
+                ]
+            },
+            "properties": {
+                "stop_id": "VI1",
+                "stop_name": "Manresa Viladordis",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.827904,
+                    41.731457
+                ]
+            },
+            "properties": {
+                "stop_id": "MB2",
+                "stop_name": "Manresa-Baixador",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.8724438,
+                    41.49767605
+                ]
+            },
+            "properties": {
+                "stop_id": "SE1",
+                "stop_name": "Sant Esteve Sesrovires",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.838788972,
+                    41.5017639
+                ]
+            },
+            "properties": {
+                "stop_id": "BE1",
+                "stop_name": "La Beguda",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.830813063,
+                    41.50222357
+                ]
+            },
+            "properties": {
+                "stop_id": "CP1",
+                "stop_name": "Can Parellada",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.75450443,
+                    41.52591339
+                ]
+            },
+            "properties": {
+                "stop_id": "PI2",
+                "stop_name": "Piera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.709010719,
+                    41.52025979
+                ]
+            },
+            "properties": {
+                "stop_id": "VA",
+                "stop_name": "Vallbona d'Anoia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.709010719,
+                    41.52025979
+                ]
+            },
+            "properties": {
+                "stop_id": "VA2",
+                "stop_name": "Vallbona d'Anoia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.695130725,
+                    41.52153533
+                ]
+            },
+            "properties": {
+                "stop_id": "CA",
+                "stop_name": "Capellades",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.695130725,
+                    41.52153533
+                ]
+            },
+            "properties": {
+                "stop_id": "CA1",
+                "stop_name": "Capellades",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.677906247,
+                    41.55461094
+                ]
+            },
+            "properties": {
+                "stop_id": "PO1",
+                "stop_name": "La Pobla de Claramunt",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.642009216,
+                    41.57331472
+                ]
+            },
+            "properties": {
+                "stop_id": "VN2",
+                "stop_name": "Vilanova del Cam\u00ed",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.629951133,
+                    41.57802651
+                ]
+            },
+            "properties": {
+                "stop_id": "IG2",
+                "stop_name": "Igualada",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.843723316,
+                    41.61562791
+                ]
+            },
+            "properties": {
+                "stop_id": "MP",
+                "stop_name": "Monistrol-Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.843723316,
+                    41.61562791
+                ]
+            },
+            "properties": {
+                "stop_id": "MP2",
+                "stop_name": "Monistrol-Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.836497527,
+                    41.59225373
+                ]
+            },
+            "properties": {
+                "stop_id": "MM1",
+                "stop_name": "Montserrat",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.633672,
+                    41.620098
+                ]
+            },
+            "properties": {
+                "stop_id": "LE1",
+                "stop_name": "Lleida",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.686458,
+                    41.654738
+                ]
+            },
+            "properties": {
+                "stop_id": "AT1",
+                "stop_name": "Alcoletge",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.764899,
+                    41.717644
+                ]
+            },
+            "properties": {
+                "stop_id": "RM",
+                "stop_name": "T\u00e9rmens",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.814761,
+                    41.789215
+                ]
+            },
+            "properties": {
+                "stop_id": "BG1",
+                "stop_name": "Balaguer",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.812079,
+                    41.823301
+                ]
+            },
+            "properties": {
+                "stop_id": "GB1",
+                "stop_name": "Gerb",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.830401,
+                    41.91207
+                ]
+            },
+            "properties": {
+                "stop_id": "LS",
+                "stop_name": "Vilanova de la Sal",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.852312,
+                    41.93156
+                ]
+            },
+            "properties": {
+                "stop_id": "SN",
+                "stop_name": "Santa Linya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.852312,
+                    41.93156
+                ]
+            },
+            "properties": {
+                "stop_id": "SN1",
+                "stop_name": "Santa Linya",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.892435,
+                    42.147002
+                ]
+            },
+            "properties": {
+                "stop_id": "PT",
+                "stop_name": "Palau de Noguera",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.965917,
+                    42.239877
+                ]
+            },
+            "properties": {
+                "stop_id": "PS",
+                "stop_name": "La Pobla de Segur",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100463866,
+                    41.542522966
+                ]
+            },
+            "properties": {
+                "stop_id": "CF2",
+                "stop_name": "Can Feu - Gr\u00e0cia",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1088815,
+                    41.5474198
+                ]
+            },
+            "properties": {
+                "stop_id": "PJ",
+                "stop_name": "Sabadell Pla\u00e7a Major",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100385,
+                    41.554954
+                ]
+            },
+            "properties": {
+                "stop_id": "CT",
+                "stop_name": "La Creu Alta",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.100385,
+                    41.554954
+                ]
+            },
+            "properties": {
+                "stop_id": "CT2",
+                "stop_name": "La Creu Alta",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.096657,
+                    41.561225
+                ]
+            },
+            "properties": {
+                "stop_id": "NO",
+                "stop_name": "Sabadell Nord",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.096657,
+                    41.561225
+                ]
+            },
+            "properties": {
+                "stop_id": "NO2",
+                "stop_name": "Sabadell Nord",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.089499,
+                    41.571291
+                ]
+            },
+            "properties": {
+                "stop_id": "PN1",
+                "stop_name": "Sabadell Parc del Nord",
+                "wheelchair_boarding": 1
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1663747137233,
+                    42.30040204821
+                ]
+            },
+            "properties": {
+                "stop_id": "RR1",
+                "stop_name": "Ribes-Enlla\u00e7",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1721241533237,
+                    42.308798764827
+                ]
+            },
+            "properties": {
+                "stop_id": "RV",
+                "stop_name": "Ribes-Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1721241533237,
+                    42.308798764827
+                ]
+            },
+            "properties": {
+                "stop_id": "RV1",
+                "stop_name": "Ribes-Vila",
+                "wheelchair_boarding": 0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.652806,
+                    41.622808
+                ]
+            },
+            "properties": {
+                "stop_id": "PG",
+                "stop_name": "Pol\u00edgon industrial del Segre",
+                "wheelchair_boarding": 0
+            }
+        }
+    ]
+}

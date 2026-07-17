@@ -1,0 +1,1075 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 36,
+        "NOM": "EL MARESME",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 37,
+        "NOM": "FÒRUM",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 38,
+        "NOM": "CAN LLIMA",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 39,
+        "NOM": "LA CATALANA",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 40,
+        "NOM": "SANT JOAN BAPTISTA",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 41,
+        "NOM": "ENCANTS DE SANT ADRIÀ",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 42,
+        "NOM": "SANT ROC",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 43,
+        "NOM": "LA MINA",
+        "LINIES": "T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 44,
+        "NOM": "PORT FÒRUM",
+        "LINIES": "T4, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 45,
+        "NOM": "WELLINGTON",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 46,
+        "NOM": "MARINA",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 47,
+        "NOM": "AUDITORI - TEATRE NACIONAL",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 48,
+        "NOM": "LA FARINERA",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 49,
+        "NOM": "CAN JAUMANDREU",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 50,
+        "NOM": "ESPRONCEDA",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 51,
+        "NOM": "SANT MARTÍ DE PROVENÇALS",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 52,
+        "NOM": "BESÒS",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 53,
+        "NOM": "ALFONS EL MAGNÀNIM",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 54,
+        "NOM": "PARC DEL BESÒS",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 55,
+        "NOM": "FRANCESC MACIÀ",
+        "LINIES": "T1 (O/F), T2 (O/F), T3 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 56,
+        "NOM": "L'ILLA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 57,
+        "NOM": "NUMÀNCIA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 58,
+        "NOM": "MARIA CRISTINA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 59,
+        "NOM": "PIUS XII",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 60,
+        "NOM": "PALAU REIAL",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 61,
+        "NOM": "ZONA UNIVERSITÀRIA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 62,
+        "NOM": "AVINGUDA XILE",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 63,
+        "NOM": "ERNEST LLUCH",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 64,
+        "NOM": "CAN RIGAL",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 65,
+        "NOM": "CA N'OLIVERES",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 66,
+        "NOM": "CAN CLOTA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 67,
+        "NOM": "PONT D'ESPLUGUES",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 68,
+        "NOM": "LA SARDANA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 69,
+        "NOM": "MONTESA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 70,
+        "NOM": "EL PEDRÓ",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 71,
+        "NOM": "IGNASI IGLÉSIAS",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 72,
+        "NOM": "CORNELLÀ CENTRE",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 73,
+        "NOM": "LES AIGÜES",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 74,
+        "NOM": "FONTSANTA - FATJÓ",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 75,
+        "NOM": "BON VIATGE",
+        "LINIES": "T1 (O/F), T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 76,
+        "NOM": "LA FONTSANTA",
+        "LINIES": "T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 77,
+        "NOM": "CENTRE MIQUEL MARTÍ I POL",
+        "LINIES": "T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 78,
+        "NOM": "LLEVANT - LES PLANES",
+        "LINIES": "T2 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 79,
+        "NOM": "HOSPITAL SANT JOAN DESPÍ - TV3",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 80,
+        "NOM": "RAMBLA DE SANT JUST",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 81,
+        "NOM": "WALDEN",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 82,
+        "NOM": "TORREBLANCA",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 83,
+        "NOM": "GLÒRIES",
+        "LINIES": "T4, T5 (O), T6 (O)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 84,
+        "NOM": "CA L'ARANYÓ",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 85,
+        "NOM": "PERE IV",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 86,
+        "NOM": "FLUVIÀ",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 87,
+        "NOM": "SELVA DE MAR",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 88,
+        "NOM": "EL MARESME",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 89,
+        "NOM": "FÒRUM",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 90,
+        "NOM": "CAN LLIMA",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 91,
+        "NOM": "PORT FÒRUM",
+        "LINIES": "T4, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 92,
+        "NOM": "ESTACIÓ DE SANT ADRIÀ",
+        "LINIES": "T4 (O/F), T6 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 93,
+        "NOM": "CIUTADELLA - VILA OLÍMPICA",
+        "LINIES": "T4 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 94,
+        "NOM": "WELLINGTON",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 95,
+        "NOM": "MARINA",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 96,
+        "NOM": "AUDITORI - TEATRE NACIONAL",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 97,
+        "NOM": "LA FARINERA",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 98,
+        "NOM": "CAN JAUMANDREU",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 99,
+        "NOM": "ESPRONCEDA",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 100,
+        "NOM": "SANT MARTÍ DE PROVENÇALS",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 101,
+        "NOM": "BESÒS",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 102,
+        "NOM": "ALFONS EL MAGNÀNIM",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 103,
+        "NOM": "PARC DEL BESÒS",
+        "LINIES": "T5, T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 104,
+        "NOM": "LA CATALANA",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 105,
+        "NOM": "SANT JOAN BAPTISTA",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 106,
+        "NOM": "SANT FELIU - CONSELL COMARCAL",
+        "LINIES": "T3 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 107,
+        "NOM": "ENCANTS DE SANT ADRIÀ",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 1,
+        "NOM": "SANT ROC",
+        "LINIES": "T5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 2,
+        "NOM": "GORG",
+        "LINIES": "T5 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 3,
+        "NOM": "LA MINA",
+        "LINIES": "T6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 4,
+        "NOM": "L'ILLA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 5,
+        "NOM": "NUMÀNCIA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 6,
+        "NOM": "MARIA CRISTINA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 7,
+        "NOM": "PIUS XII",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 8,
+        "NOM": "PALAU REIAL",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 9,
+        "NOM": "ZONA UNIVERSITÀRIA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 10,
+        "NOM": "AVINGUDA XILE",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 11,
+        "NOM": "ERNEST LLUCH",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 12,
+        "NOM": "CAN RIGAL",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 13,
+        "NOM": "CA N'OLIVERES",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 14,
+        "NOM": "CAN CLOTA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 15,
+        "NOM": "PONT D'ESPLUGUES",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 16,
+        "NOM": "LA SARDANA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 17,
+        "NOM": "MONTESA",
+        "LINIES": "T1, T2, T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 18,
+        "NOM": "EL PEDRÓ",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 19,
+        "NOM": "IGNASI IGLÉSIAS",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 20,
+        "NOM": "CORNELLÀ CENTRE",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 21,
+        "NOM": "LES AIGÜES",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 22,
+        "NOM": "FONTSANTA - FATJÓ",
+        "LINIES": "T1, T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 23,
+        "NOM": "BON VIATGE",
+        "LINIES": "T1 (O/F), T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 24,
+        "NOM": "LA FONTSANTA",
+        "LINIES": "T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 25,
+        "NOM": "CENTRE MIQUEL MARTÍ I POL",
+        "LINIES": "T2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 26,
+        "NOM": "LLEVANT - LES PLANES",
+        "LINIES": "T2 (O/F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 27,
+        "NOM": "HOSPITAL SANT JOAN DESPÍ - TV3",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 28,
+        "NOM": "RAMBLA DE SANT JUST",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 29,
+        "NOM": "WALDEN",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 30,
+        "NOM": "TORREBLANCA",
+        "LINIES": "T3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 31,
+        "NOM": "GLÒRIES",
+        "LINIES": "T4, T5 (F), T6 (F)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 32,
+        "NOM": "CA L'ARANYÓ",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 33,
+        "NOM": "PERE IV",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 34,
+        "NOM": "FLUVIÀ",
+        "LINIES": "T4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": null,
+      "properties": {
+        "OBJECTID": 35,
+        "NOM": "SELVA DE MAR",
+        "LINIES": "T4"
+      }
+    }
+  ]
+}

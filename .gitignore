@@ -1,0 +1,7 @@
+cache/
+Articles and Papers/
+Images/
+test.ipynb
+# ignore the cache directory
+# ignore the articles and papers directories
+
