@@ -1,34 +1,10 @@
-Sources
+# To-dos / dubtes
 
-# O-D Pairs
-- MIT -> https://dspace.mit.edu/handle/1721.1/111441
-- https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-its.2019.0158
+- Agafar tb lhospitaletm i zones on arribibn els metros?
+- Quines parades no conisderar per soluico? Com tirarles buffer 200 m + score? Centrality algortihm,
+- Filtrat tb parades de metro?
+- Buscar papers sobre els dos punts anteriors
 
-
-# Bus Stop Location Problem" (BSLP)
-
-- https://link.springer.com/article/10.1007/s10479-005-2046-0
-
-# Network design problem
-
-- Laporte Book - chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://link.springer.com/content/pdf/10.1007/978-3-540-74247-0.pdf
-
-# Trip Alignment
-
-- https://link.springer.com/article/10.1007/s10479-005-2038-0
-
-# Feeder bus network design
-
-- https://www.sciencedirect.com/science/article/pii/S037722179700283X
+- Fer una bvelocitat diferent per als trajectes en tram
 
 
-# Other
-
-- https://www.researchgate.net/profile/Carolina-Rojas-17/publication/281744261_Modelacion_en_SIG_de_Indicadores_de_Transporte_en_el_marco_de_la_Sostenibilidad_Urbana/links/55f9c52908aec948c496b080/Modelacion-en-SIG-de-Indicadores-de-Transporte-en-el-marco-de-la-Sostenibilidad-Urbana.pdf
-
-
-# Opcions per calcular temps/ditancies de rutes
-
-- r5py 
-- google API
-- OSRM 

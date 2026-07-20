@@ -5,10 +5,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.168720219,
-                    41.38563194
-                ]
+                "coordinates": [2.16971676, 41.38771322]
             },
             "properties": {
                 "stop_id": "PC2",
@@ -20,10 +17,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.158030869,
-                    41.39281434
-                ]
+                "coordinates": [2.16044376, 41.3956766]
             },
             "properties": {
                 "stop_id": "PR1",
@@ -590,10 +584,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.148458333,
-                    41.3747199
-                ]
+                "coordinates": [2.149387, 41.37545911]
             },
             "properties": {
                 "stop_id": "PE4",
@@ -605,10 +596,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.148458333,
-                    41.3747199
-                ]
+                "coordinates":[2.149387, 41.37545911]
             },
             "properties": {
                 "stop_id": "PE3",
@@ -665,10 +653,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.102709519,
-                    41.35793378
-                ]
+                "coordinates": [2.10264529, 41.35852162]
             },
             "properties": {
                 "stop_id": "LH4",
@@ -740,10 +725,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.124199344,
-                    41.35655892
-                ]
+                "coordinates":[2.12592378, 41.35756043]
             },
             "properties": {
                 "stop_id": "EU1",
@@ -1700,10 +1682,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.168720219,
-                    41.38563194
-                ]
+                "coordinates": [2.16971676, 41.38771322]
             },
             "properties": {
                 "stop_id": "PC1",
@@ -1715,10 +1694,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.168720219,
-                    41.38563194
-                ]
+                "coordinates": [2.16971676, 41.38771322]
             },
             "properties": {
                 "stop_id": "PC3",
@@ -1730,10 +1706,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.168720219,
-                    41.38563194
-                ]
+                "coordinates":[2.16971676, 41.38771322]
             },
             "properties": {
                 "stop_id": "PC5",
@@ -1745,10 +1718,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.158030869,
-                    41.39281434
-                ]
+                "coordinates":[2.16044376, 41.3956766]
             },
             "properties": {
                 "stop_id": "PR",
@@ -1760,10 +1730,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.158030869,
-                    41.39281434
-                ]
+                "coordinates":[2.16044376, 41.3956766]
             },
             "properties": {
                 "stop_id": "PR2",
@@ -2150,10 +2117,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.148458333,
-                    41.3747199
-                ]
+                "coordinates":[2.149387, 41.37545911]
             },
             "properties": {
                 "stop_id": "PE",
@@ -2165,10 +2129,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.148458333,
-                    41.3747199
-                ]
+                "coordinates": [2.149387, 41.37545911]
             },
             "properties": {
                 "stop_id": "PE2",
@@ -2180,10 +2141,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.148458333,
-                    41.3747199
-                ]
+                "coordinates": [2.149387, 41.37545911]
             },
             "properties": {
                 "stop_id": "PE1",
@@ -2285,10 +2243,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.102709519,
-                    41.35793378
-                ]
+                "coordinates": [2.10264529, 41.35852162]
             },
             "properties": {
                 "stop_id": "LH",
@@ -2300,10 +2255,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.102709519,
-                    41.35793378
-                ]
+                "coordinates": [2.10264529, 41.35852162]
             },
             "properties": {
                 "stop_id": "LH2",
@@ -2315,10 +2267,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.102709519,
-                    41.35793378
-                ]
+                "coordinates": [2.10264529, 41.35852162]
             },
             "properties": {
                 "stop_id": "LH3",
@@ -3020,10 +2969,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.168720219,
-                    41.38563194
-                ]
+                "coordinates": [2.16971676, 41.38771322]
             },
             "properties": {
                 "stop_id": "PC",
@@ -3035,10 +2981,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.168720219,
-                    41.38563194
-                ]
+                "coordinates": [2.16971676, 41.38771322]
             },
             "properties": {
                 "stop_id": "PC4",
@@ -3560,10 +3503,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.102709519,
-                    41.35793378
-                ]
+                "coordinates": [2.10264529, 41.35852162]
             },
             "properties": {
                 "stop_id": "LH1",
@@ -3605,10 +3545,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.124199344,
-                    41.35655892
-                ]
+                "coordinates":  [2.12592378, 41.35756043]
             },
             "properties": {
                 "stop_id": "EU",
@@ -3620,10 +3557,7 @@
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-                    2.124199344,
-                    41.35655892
-                ]
+                "coordinates":[2.12592378, 41.35756043]
             },
             "properties": {
                 "stop_id": "EU2",
