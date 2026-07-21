@@ -43,8 +43,8 @@ https://www.ambmobilitat.cat/Principales/busquedaparadas.aspx
 
 ### Notes
 
-- TMB includes more stops because it also covers municipalities such as L'Hospitalet and Esplugues.
-- AMB is missing some of these peripheral stops.
+- AMB includes more stops because it also covers municipalities such as L'Hospitalet and Esplugues.
+- TMB is missing some of these peripheral stops.
 - Plan:
   - Use the AMB stop dataset.
   - Exclude stops that are only served by night buses (lines starting with `N`).
@@ -86,7 +86,7 @@ S1, S2
 Lines kept:
 
 ```python
-['L6', 'L7', 'L8', 'S1']
+['L6', 'L7', 'L8', 'S1','L12']
 ```
 
 
@@ -126,6 +126,20 @@ Si que ho fem, pero no modifiquem la seva geometria com en el cas del fgc, ja qu
 ['Gorg','Sant Roc','Besòs','Verdaguer']
 
 
+Començat a buscar dades de punts d'interès de bcn
+https://www.institutmetropoli.cat/en/estudi/mobility-survey-on-weekday-2024-emef/?utm_source=chatgpt.com
+https://portalrecerca.uab.cat/es/publications/walking-short-distances-the-socioeconomic-drivers-for-the-use-of-/?utm_source=chatgpt.com
+https://ce.atm.cat/en/web/observatori/w/repartiment-modal-tipus-despla-comarca-residencia?utm_source=chatgpt.com
+
+https://arxiv.org/abs/2103.15638?utm_source=chatgpt.com
+https://www.sciencedirect.com/science/article/pii/S0965856414002419?utm_source=chatgpt.com
+
+lo millor trobat és això: https://www.amb.cat/ca/web/mobilitat/gestio-i-organitzacio/dades/dades-de-fluxos
+dades de fluxe per districte, pero els districtes son massa generals
+
+
 Potser és una bona opció només considerar parades de bus com a possibles parades, i considerar tram/metro nomñes si no hi ha alguna parada de bus a prop
+Dades d'AMB són molt semblants a les de TMB pero arriben millor a l'hospitalet i sant adria. Hi ha bastantes més parades per poc més coverage potser renta no fer-ho servir
+Començat a generar nodes per bus, pero falten les parades per linia de hos
 
 
