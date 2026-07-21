@@ -114,4 +114,18 @@ Dels nodes de fgc ens carreguem vallvidriera inferior i superir que
 
 Considerant si afegir o no les parades fora de bcn. Per exemple a l'hospitalet hi ha certes zones d'oficines. Segurmanet decidir un cop tingui els punts d'interès
 
+# 21 Juliol
+
+Rebut dades de AMB, encara no accessibles degut a servei no disponible
+Construir nodes tram. Les dades de ide amb no son bones perque estan desactualitzades -> ocontruirem el map paparada - linia manual igual que el de fgc
+Dubte: excloure les parades de Tram que tenen metro de la solució (segurmanet si)
+Si que ho fem, pero no modifiquem la seva geometria com en el cas del fgc, ja que pot alterar a les rutes d'enllaç i la llargada de les trajectòries.
+
+['Ernest Lluch','Zona Universitària','Palau Reial','Maria Cristina']
+['Fòrum','El Maresme','Selva de Mar','Glòries','Marina','Ciutadella | Vila Olímpica']
+['Gorg','Sant Roc','Besòs','Verdaguer']
+
+
+Potser és una bona opció només considerar parades de bus com a possibles parades, i considerar tram/metro nomñes si no hi ha alguna parada de bus a prop
+
 
