@@ -6,5 +6,6 @@
 - Buscar papers sobre els dos punts anteriors
 
 - Fer una bvelocitat diferent per als trajectes en tram
+- EL nom del TFM hauria de ser millora de xarxa IU - Case study - mataró
 
 

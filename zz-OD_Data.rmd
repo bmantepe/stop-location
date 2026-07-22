@@ -1,0 +1,36 @@
+---
+title: "Untitled"
+author: "Biel Mante"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(spanishoddata)
+```
+
+```{r}
+spod_set_data_dir(data_dir = "~/spanish_od_data")
+```
+
+
+```{r}
+distritos <- spod_get_zones("distritos", ver = 2)
+```
+
+
+
+
+```{r}
+od_db <- spod_get(
+  type = "origin-destination",
+  zones = "municipios",
+  dates = c(start = "2024-03-01", end = "2024-03-07")
+)
+```
+
+```{r}
+od_db
+```
+
+

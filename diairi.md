@@ -142,4 +142,15 @@ Potser és una bona opció només considerar parades de bus com a possibles para
 Dades d'AMB són molt semblants a les de TMB pero arriben millor a l'hospitalet i sant adria. Hi ha bastantes més parades per poc més coverage potser renta no fer-ho servir
 Començat a generar nodes per bus, pero falten les parades per linia de hos
 
+## 22 de juliol
+
+el paper -A city of cities: Measuring how 15-minutes urban accessibility shapes human mobility in Barcelona- és força bo, i té dades sorbe les zones de destí i les seves frequencues
+Les dades no són públiques ja que són de vodafone, però poden ser compartides escrivint-li a aquest senyor https://ajuntament.barcelona.cat/es/organigrama-municipal/organ/Oficina%20Municipal%20de%20Datos
+
+preguntar a ferran -> https://cit.upc.edu/en/portfolio-item/second_phase_vml/
+
+OD data by 10 districts, not granular enough -> https://ropenspain.github.io/spanishoddata/
+
+Idea hexagons + scores
+
 
