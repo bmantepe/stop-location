@@ -152,5 +152,34 @@ preguntar a ferran -> https://cit.upc.edu/en/portfolio-item/second_phase_vml/
 OD data by 10 districts, not granular enough -> https://ropenspain.github.io/spanishoddata/
 
 Idea hexagons + scores
+faltaria afegir les geometries de tota la AMB
+
+
+# 23 de juilol 
+
+Hexagons -> només els creem a bcn i a les de les vores ja hi arribarem, així que les parades candidates seràn properes al centre.
+Potser fins i tot filtrar la capa d'hexagonns més propera a la frontera
+Score parades -> no contar algo tenint en compte les linies de la parada + distancia altres parades + les linies que tingui. Així una parada amb més linies sera beneficiada. No contar una línia dos cops si té dos parades dins el buffer. 
+
+Aquest paper tenia bona pinta pero fa al reves -> busca ocupar les zones on no hi ha parades : https://onlinelibrary.wiley.com/doi/epdf/10.1155/2020/8853872
+
+Aquest té bona pinta pero no el puc llegir : https://www.sciencedirect.com/org/science/article/abs/pii/S2324993522004699
+Demano accés als autors
+
+Aquest tb té pintaca: https://www.emerald.com/jtran/article-abstract/doi/10.1680/jtran.25.00025/1303212/Design-method-of-feeder-bus-network-based-on-belt?redirectedFrom=fulltext
+
+
+
+# 24 de juliol
+
+llegit aquest paper i buscar-ne més https://onlinelibrary.wiley.com/doi/full/10.1155/atr/9728885
+es bastant útil, pero no considerar integració, només parades als punts de demanda
+
+he inventat 3 destinacions
+he creat els edges de les linies de metro i la primera linia de fgc (L6)
+no estandaritzem els punts e fgc i les parades de metro, ja que putejen a la projecció de les linies de fgc a lhora de crear els segments
+
+
+
 
 
