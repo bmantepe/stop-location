@@ -1,0 +1,2 @@
+fare_media_id,fare_media_name,fare_media_type
+aerobus_online,Aerobus online ticket,4

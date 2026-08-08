@@ -1,0 +1,38 @@
+area_id, area_name
+08015,Badalona
+08904,Badia del Vallès
+08252,Barberà del Vallès
+08019,Barcelona
+08020,Begues
+08054,Castellbisbal
+08056,Castelldefels
+08266,Cerdanyola del Vallès
+08068,Cervelló
+08072,Corbera de Llobregat
+08073,Cornellà de Llobregat
+08158,El Papiol
+08169,El Prat de Llobregat
+08077,Esplugues de Llobregat
+08089,Gavà
+08905,La Palma de Cervelló
+08270,Les Botigues de Sitges
+08101,L'Hospitalet de Llobregat
+08123,Molins de Rei
+08125,Montcada i Reixac
+08126,Montgat
+08157,Pallejà
+08180,Ripollet
+08194,Sant Adrià de Besòs
+08196,Sant Andreu de la Barca
+08200,Sant Boi de Llobregat
+08204,Sant Climent de Llobregat	
+08205,Sant Cugat del Vallès	
+08211,Sant Feliu de Llobregat
+08217,Sant Joan Despí
+08221,Sant Just Desvern
+08263,Sant Vicenç dels Horts
+08244,Santa Coloma de Cervelló
+08245,Santa Coloma de Gramenet
+08282,Tiana
+08289,Torrelles de Llobregat
+08301,Viladecans

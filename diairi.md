@@ -179,7 +179,20 @@ he inventat 3 destinacions
 he creat els edges de les linies de metro i la primera linia de fgc (L6)
 no estandaritzem els punts e fgc i les parades de metro, ja que putejen a la projecció de les linies de fgc a lhora de crear els segments
 
+# 25 jul - 7 ago
+
+Escriure correus per conseguir dades
+Les de moventis no tenen dades de les destinacions finals, sinó de com arriben a les parades i a les destinacions
+Les del paper, encara estic esperant reposta, un cop enviat el document que justifica lús de les dades
+Idea -> mantenir stop id, per tal de crear els edges 'recursius després'
 
 
+# 8 agost
+
+Afegir la columna de stop_id, per aconseguir fer mes facils els temps d'espera del trasbord
+A trambesos li falten parts dels recorreguts -> enviar correu a OPENDATA demanant-los
+la trajectoria de la linia 7 de la font amb està malament, el que fà que no es porjectin bé les parades
+fa falta mirar si les altres tb estan malament i potser es poden 'imputar' desde tmb algunes
+les trajectories cicliques no es porjecten bé, ja que al fer-ho el bucle no sap quines aprades són d'anada i quines de tornada
 
 
