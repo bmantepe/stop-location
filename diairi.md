@@ -196,3 +196,25 @@ fa falta mirar si les altres tb estan malament i potser es poden 'imputar' desde
 les trajectories cicliques no es porjecten bé, ja que al fer-ho el bucle no sap quines aprades són d'anada i quines de tornada
 
 
+# 9 agost
+
+He provat de fer servir les dades de gtfs de amb, però tenen molt poques linies dins de barcelona, i sobretot tenen línies de la perfifèria
+He eliminat algunes linies de bus problmatiques (+2 sentits) i que es trobaven a la periferia.
+Altres que si que aportaven valor les he manitingut (88)
+a les dades de amb falten parades com les de la linia 115 (eg 1771), parada 32 de la linia 7...
+fer un merge amb tmb
+
+el bus 127 te les trajectories d'anada i tornada malament
+
+linies on he trobat probles:
+
+PR3, M27, 65, 34 (només lúltim punt), 114, 155 (i falten parades), 121, 127 (disjoint), 133, 180 es raro crec q falten punts, 196, 197, 34 (nms lultim), 39,52, 59, 65
+7, 86, 87, b14, b15, b18, b23, b25, b81, h10, h12, h14, lh1, lh2, m27, v11, v17, v25, v3, v31, v5 (nomes ultima), v7, v9, x1
+
+
+el que fare sera mantenir la geometria de tmb si es troba en els dos datasets. En el proces tb afegim alguna linia més. No eliminar cap linia de moemnt
+
+------
+
+Per tractar amb les parades que faltaven simplement he fet servir les geografies de l'excel, enlloc de fer un merge excel tmb + amb
+
