@@ -1,0 +1,13 @@
+Ràster: elevacions-terreny-lidar-Catalunya-2m-2008-2011tif1786456535055
+Escala: 20000
+
+Coordenada oest (metres): 420415
+Coordenada est (metres): 439241
+Coordenada nord (metres): 4592293
+Coordenada sud (metres): 4573311
+
+Tamany de píxel (metres): 2
+
+Nombre de píxels en X: 9413
+Nombre de píxels en Y: 9491
+

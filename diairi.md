@@ -218,3 +218,17 @@ el que fare sera mantenir la geometria de tmb si es troba en els dos datasets. E
 
 Per tractar amb les parades que faltaven simplement he fet servir les geografies de l'excel, enlloc de fer un merge excel tmb + amb
 
+
+## 11 d'agost
+
+
+hem arreglat el problema de r5py instalant : https://adoptium.net/es/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin21-binaries%2Freleases%2Fdownload%2Fjdk-21.0.12%252B8%2FOpenJDK21U-jdk_aarch64_mac_hotspot_21.0.12_8.pkg&vendor=Adoptium
+
+
+Començat el tutorial de r5py. Hi ha una funció que dona temps de trajecte de O a D per diferents modalitats. Un dels inputs importants és l'elevació del terreny. Buscarem dades com ho va fer el ferran per el treball de DMT 
+
+altres alternatives : https://visors.icgc.cat/appdownloads/?c=fmevtmet
+
+r5py requereix un fitxer en format pbf, l'estic buscant a aqui https://download.bbbike.org/osm/bbbike/Barcelona i aqui : https://download.geofabrik.de/europe/spain/cataluna.html
+Hem conractat a la gent del tram. Falta part del recorregut peruqe estan en obres. Eliminarem les parades que no estan operatives. EL T4 torna a estar operatiu el 14/09
+
