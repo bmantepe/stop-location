@@ -7,6 +7,10 @@ graph_structure.md
 fluxes/
 lib/
 .env
+.DS_Store
+Data/.DS_Store
+Data/Neigh/.DS_Store
+Data/Neigh/elevation/
 # ignore the cache directory
 # ignore the articles and papers directories
 
