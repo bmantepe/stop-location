@@ -70,7 +70,7 @@
       "id": "ESTACIONS.115",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.10275471, 41.36769339]
+        "coordinates": [2.1035959189292823, 41.36771250935362]
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -118,7 +118,7 @@
       "id": "ESTACIONS.118",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.12861726, 41.36881637]
+        "coordinates": [2.127707718513389, 41.368482247634]
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -1366,7 +1366,7 @@
       "id": "ESTACIONS.433",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.17854996, 41.44373023]
+        "coordinates": [2.178644112654211, 41.44382473874993]
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -1430,7 +1430,7 @@
       "id": "ESTACIONS.512",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.09150609, 41.36657075]
+        "coordinates": [2.0902977098455247, 41.36641561015249]
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -1670,7 +1670,7 @@
       "id": "ESTACIONS.555",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.11202731, 41.37589761]
+        "coordinates": [2.1115901142966145, 41.375891920503854]
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -1703,6 +1703,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [2.07311333, 41.30382333]
+        
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -2166,7 +2167,7 @@
       "id": "ESTACIONS.1138",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.17988358, 41.45919575]
+        "coordinates": [2.1805862708668546, 41.45933105938047]
       },
       "geometry_name": "GEOMETRY",
       "properties": {
@@ -2198,7 +2199,7 @@
       "id": "ESTACIONS.1140",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.17305936, 41.4624131]
+        "coordinates": [2.173030502200534, 41.46260293305691]
       },
       "geometry_name": "GEOMETRY",
       "properties": {

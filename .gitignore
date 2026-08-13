@@ -10,7 +10,7 @@ lib/
 .DS_Store
 Data/.DS_Store
 Data/Neigh/.DS_Store
-Data/Neigh/elevation/
+Data/Neigh/elevacions-terreny-lidar-Catalunya-2m-2008-2011tif1786456535055.tif
 Data/Neigh/Barcelona.osm.pbf
 Data/Neigh/cataluna-260811.osm.pbf
 .venv/

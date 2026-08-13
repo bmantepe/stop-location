@@ -244,5 +244,17 @@ Veig que fa linestrings entre vertexs de carrers, no punt a punt exacte, crec qu
 
 Considerem fer servir iscorones de 5 min, enllco de buffers de 300 m per considerar una parada com a propera. La funcií isochornes retorna un linestring enlloc de multipolygon, la qual cosa no mola. Hem de mirar com convertirho per fer un within.
 
+# 13 d'agost
+
+
+Hem trobat quer per walk podem fer el multilinestring -> polygon facil
+Hem afegit l'elevation model i comprovat que el temps de A -> B != B -> A per pendents
+La parada de metro de can serra tenia la ubicació mal posada, enmig d'un edifici, el que feia que no crees be lisochrone, l'he corregit i ara va bé. Quantes més n'hi haura així??
+La parada de santa eulalia estvaa sobre una teulada, el que feia que no es creeisn els isochrones
+Arreglat els punts que donaven problemes amb els isocrones
+Els isocrones no semblen del tot bons ni realistes amb r5py, amb osmxn semblem millors.
+
+També seran millors les rutes amb osmxn?
+
 
 
