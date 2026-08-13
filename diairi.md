@@ -219,7 +219,7 @@ el que fare sera mantenir la geometria de tmb si es troba en els dos datasets. E
 Per tractar amb les parades que faltaven simplement he fet servir les geografies de l'excel, enlloc de fer un merge excel tmb + amb
 
 
-## 11 d'agost
+# 11 d'agost
 
 
 hem arreglat el problema de r5py instalant : https://adoptium.net/es/download?link=https%3A%2F%2Fgithub.com%2Fadoptium%2Ftemurin21-binaries%2Freleases%2Fdownload%2Fjdk-21.0.12%252B8%2FOpenJDK21U-jdk_aarch64_mac_hotspot_21.0.12_8.pkg&vendor=Adoptium
@@ -231,4 +231,18 @@ altres alternatives : https://visors.icgc.cat/appdownloads/?c=fmevtmet
 
 r5py requereix un fitxer en format pbf, l'estic buscant a aqui https://download.bbbike.org/osm/bbbike/Barcelona i aqui : https://download.geofabrik.de/europe/spain/cataluna.html
 Hem conractat a la gent del tram. Falta part del recorregut peruqe estan en obres. Eliminarem les parades que no estan operatives. EL T4 torna a estar operatiu el 14/09
+
+# 12 Agost
+
+Plantejat fer servir r5py per calcular ruutes mes curtes entre parades - destinacions
+Fa falta gtfs, el que comporta inconvenients:
+1- GTFS AMB no té les millors linies
+2- Solució dependria de la hora
+
+Farem sevir r5py per calcular els camins entre parades de bus properes i per bus interurbà.
+Veig que fa linestrings entre vertexs de carrers, no punt a punt exacte, crec que no hi ha solucio
+
+Considerem fer servir iscorones de 5 min, enllco de buffers de 300 m per considerar una parada com a propera. La funcií isochornes retorna un linestring enlloc de multipolygon, la qual cosa no mola. Hem de mirar com convertirho per fer un within.
+
+
 
