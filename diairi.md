@@ -256,5 +256,16 @@ Els isocrones no semblen del tot bons ni realistes amb r5py, amb osmxn semblem m
 
 També seran millors les rutes amb osmxn?
 
+# 14 agost
+
+provar de fer els iochrones amb osmxn
+queden millor, però al fer les routes després superen els 5 minuts
+amb         point_grid_resolution=35, millora la forma dels isochornes de r5py, pero tarden molt. SI redueixo molt peta el kernel
+solució fer-los amb osmxn i dp filtar les que surtin amb + 5 min
+
+falta executar tot
+
+
+
 
 
