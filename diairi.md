@@ -266,6 +266,13 @@ solució fer-los amb osmxn i dp filtar les que surtin amb + 5 min
 falta executar tot
 
 
+# 15 d'agost
+
+el punt de la parada 110024 estava malament i feia que no pogues calcular ruta amb alguna parada que te a prop
+Algunes parades de bus de amb i de metro tmb tenien els mateixos ids
 
 
+veig que a vegades r5py calcula temps raros de trajecte i no son reals. He tornat a executar el mateix codi i ha donat temps realistes
+he corregit la speed walk a 5 kmh 
 
+He acabat de calcular tots els dedges, dema tocara fer els edges del bus IU i els de egress (almenys preparar)
