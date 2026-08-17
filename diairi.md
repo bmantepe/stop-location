@@ -276,3 +276,9 @@ veig que a vegades r5py calcula temps raros de trajecte i no son reals. He torna
 he corregit la speed walk a 5 kmh 
 
 He acabat de calcular tots els dedges, dema tocara fer els edges del bus IU i els de egress (almenys preparar)
+
+
+# 17 d'agist
+
+he creat els edges egress
+next edges IU, wait time, afegir pesos a egress, exchange wait...
