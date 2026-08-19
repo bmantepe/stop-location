@@ -282,3 +282,16 @@ He acabat de calcular tots els dedges, dema tocara fer els edges del bus IU i el
 
 he creat els edges egress
 next edges IU, wait time, afegir pesos a egress, exchange wait...
+
+
+# 19 d'agost
+
+Fem els edges del bus IU, primer de la city gate a tot i dp entre ells i bidreeccionals. No fem servir el temps que ens donen els outputs de r5py, sino que el calculem ambla distancia ja que podem adaptar el temps als parametres del paper
+
+Tenim alguns problemes amb les parades candidates, al havernhi moltes (sobretot bus) no podem calcular tots els edges entre elles pq tardaria massa. Solucins -> cluster, considerar parades amb +1 linia, eliminar algines línies... 
+
+He reduit les de metro, fgc, i tram peqrque estiguin només a barcelona, però el major probelma és el bus
+
+em peto les linies de bus barri de les solucions, no dels edges
+
+passem de 2235 parades a 1631, el temps esperat de calcular totes les rutes seguei sent 8h, l'hem reduit a la meitat, pero no es suficient. Em carrego les linies interurbanes també, comencen amb L,M,B
