@@ -295,3 +295,37 @@ He reduit les de metro, fgc, i tram peqrque estiguin només a barcelona, però e
 em peto les linies de bus barri de les solucions, no dels edges
 
 passem de 2235 parades a 1631, el temps esperat de calcular totes les rutes seguei sent 8h, l'hem reduit a la meitat, pero no es suficient. Em carrego les linies interurbanes també, comencen amb L,M,B
+
+
+# 24 agost
+
+Seguir eliminanr paradees
+Alguns busos barri que ens vam deixar
+He eliminat les parades de les linies de bus barri i les que tenien només una linia de bus
+El temps esperat d'execució és de 2 hores
+
+
+# 25 agost
+
+he executat les rutes del bus IU
+el kenrel peta al aplicar la geometria amb wkt.loads, chucnkejarho pot solucinar-ho
+eliminem rutes massa curtes o massa llarges
+
+# 28 d'agost
+
+Aconseguit calcular edges IU bus, però segurament fara faltar reduir mes les conexions pq n'hi ha casi 1M. 
+Idees :
+ - trahectes > 5 min i < 20.
+ - Petar mes parades de la zona de dlat i només pearades amb +2 linies enlloc de +1 
+
+To - do aquesta tarda -> executar i guardae egress
+I wait times després
+
+Comencem amb els wait times, els fem per cada mode de tranport per spearat pq alguns ids coincideixen
+
+Els gtfs del metro no se ben bé com estimar wait times per a les parades que tenen més d'una linia
+Pensaba que serien els trip ids pero per exempl id 216 no te cap trip id que surti de la l5
+Tb hi ha duplciats de direccio i temps, parada com si surtissin +1 a la vegada
+
+
+Demà continuar amb wait tiemes, fer un comput global de temps i provar de passar ja a neo4j per calcular millor ruta Soltion -> Dest (no fa falta passar IU trajs)

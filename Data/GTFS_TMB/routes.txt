@@ -116,3 +116,5 @@ route_id,route_short_name,route_long_name,route_type,route_url,route_color,route
 2.196.2971,196,Pl. Kennedy / Bellesguard,3,https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/196,DA291C,FFFFFF
 2.1.4094,M1,<M> Especial L1 Plaça Sants-Florida,3,https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/M1,937500,FFFFFF
 2.239.4091,M9,<M> Especial L9N-L10N Sagrera-Onze Setembre,3,https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/M9,937500,FFFFFF
+2.239.4092,M9,<M> Especial L9N-L10N Sagrera-Bon Pastor,3,https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/M9,937500,FFFFFF
+2.978.4099,978,Servei Bus Les Corts,3,https://www.tmb.cat/ca/barcelona/autobusos/-/lineabus/978,937500,FFFFFF
