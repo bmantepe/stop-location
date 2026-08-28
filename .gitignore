@@ -17,6 +17,9 @@ Data/Neigh/cataluna-260811.osm.pbf
 .venv/
 Nodes/
 Edges/
+Data/GTFS_TMB/
+Data/GTFS_AMB/
+
 
 
 # ignore the cache directory

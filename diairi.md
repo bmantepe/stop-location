@@ -329,3 +329,6 @@ Tb hi ha duplciats de direccio i temps, parada com si surtissin +1 a la vegada
 
 
 Demà continuar amb wait tiemes, fer un comput global de temps i provar de passar ja a neo4j per calcular millor ruta Soltion -> Dest (no fa falta passar IU trajs)
+
+
+al tram hi ha duplicats, pero com a mínim podem veure be els temps esperats per rutes
