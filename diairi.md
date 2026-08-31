@@ -332,3 +332,23 @@ Demà continuar amb wait tiemes, fer un comput global de temps i provar de passa
 
 
 al tram hi ha duplicats, pero com a mínim podem veure be els temps esperats per rutes
+
+
+# 31 Agost
+
+Seguir amb tram wait times
+Arreglar el problema que les ultimes parades nomes tene un sentit i per tant havia perdut els seus wait times
+Els IDS de l'excel o coincideixne amb els gtfs. 
+La parade 1132 només té arribades a les 7 i el gorg igual. Potser re-descarregar les dades en uns dies
+
+La parada CCML no té cap altra parada a prop, això no es un error
+
+Aclarat com funcionen els gtfs de metro, una mateixa estació té diferents codis per cada línia (stop_ids) i aquests no coincideixen amb els que tenim del geojson
+
+Moltes linies de bus no hi sóm, pero les podem trobar a les dades de tmb
+
+Falten parades de moemnt de tmb (bus)
+
+De metro la l11, l9 i l10 no tenen trips. Me les carrego, pero sempre les podrem tornar a afegir
+
+
