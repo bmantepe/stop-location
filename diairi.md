@@ -352,3 +352,16 @@ Falten parades de moemnt de tmb (bus)
 De metro la l11, l9 i l10 no tenen trips. Me les carrego, pero sempre les podrem tornar a afegir
 
 
+
+# 1 set
+
+Molts trips que estan empiricament no hi son en teoria, per la qual cosa no podem obtenir la linia a la que peryanyen, es pot interpolar miramt les parades
+
+Els trips en stop times son curts i es salten quasi totes les parades. Casi tots els errors son de dades de TMB pero les linies B21 B23 B20 tb tenen errors:
+
+B21 8408
+b23 107806, 106011, 100560, 8408, 
+b20 8408
+els recorreguts d'aquestes linies no estan be en general, passen per parades que en realitat no serviexen
+
+
