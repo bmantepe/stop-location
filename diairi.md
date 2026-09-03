@@ -365,3 +365,10 @@ b20 8408
 els recorreguts d'aquestes linies no estan be en general, passen per parades que en realitat no serviexen
 
 
+# 3 set
+
+ajustat l'excpected wait time basat en https://en.wikipedia.org/wiki/Residual_time
+Imputat amb la mitja de la linia
+eliminat les linies 116 199 86 102 pq no tenien timestamps
+
+To-do -> re-executar IU bus stops trajs
