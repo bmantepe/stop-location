@@ -372,3 +372,9 @@ Imputat amb la mitja de la linia
 eliminat les linies 116 199 86 102 pq no tenien timestamps
 
 To-do -> re-executar IU bus stops trajs
+
+
+# 4 set
+
+calculat els costs, tot preparat per passar a neo4j
+to-dos -> buscar una font per als pesos de trajecte
