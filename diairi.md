@@ -378,3 +378,24 @@ To-do -> re-executar IU bus stops trajs
 
 calculat els costs, tot preparat per passar a neo4j
 to-dos -> buscar una font per als pesos de trajecte
+
+# 9 Set
+
+Carregar nodes i edges
+
+LOAD CSV WITH HEADERS FROM "file:///N-Destinations.csv" AS row
+MERGE (s:PoI {id: row.poi_name})
+SET s += row
+
+i começar a fer queries
+
+# 11 set
+
+No tots els edges han carregat a neo4j, miro perq
+
+alguns edges de metro no han carregar bé perq tenen ids diferens als geojsons de trajectories i de parades, llavors no fan match. FIxejat afegint un map
+
+per als egress, hi havia algunes parades bus-metro que eren iguals i aixo generava isochrones que no corresponien a la parada i per tant parades que haurien de poder arribar a un punt no ho feien
+
+acabat de carregar tot be a neo4j
+

@@ -17,6 +17,7 @@ Data/Neigh/cataluna-260811.osm.pbf
 .venv/
 Nodes/
 Edges/
+commands.txt
 # Data/GTFS_TMB/
 # Data/GTFS_AMB/
 
