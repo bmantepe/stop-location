@@ -1,23 +1,82 @@
-MATCH (n)
-RETURN labels(n), keys(n), count(*) AS count
-LIMIT 20;
+MATCH (source:StopSol {id: 'SM-126'}),
+      (destination:POI {poi_name: 'Zona Universitària'})
 
-// LOAD CSV imports every field as text. Convert the existing relationship costs
-// before projecting them into GDS.
-MATCH ()-[r:EXCHANGE|TRAVEL_TO|EGRESS]->()
-WHERE r.cost IS NOT NULL AND trim(toString(r.cost)) <> ''
-SET r.cost = toFloat(r.cost);
+CALL gds.shortestPath.dijkstra.stream('transport-routing', {
+  sourceNode: source,
+  targetNode: destination,
+  relationshipWeightProperty: 'cost'
+})
+YIELD totalCost, nodeIds, costs
 
-CALL gds.graph.drop('transport-routing', false)
-YIELD graphName
-RETURN graphName;
+WITH
+  source AS route_source,
+  destination AS route_destination,
+  totalCost,
+  nodeIds,
+  costs
 
-CALL gds.graph.project(
-  'transport-routing',
-  ['StopSol', 'Stop', 'PoI'],
-  {
-    EXCHANGE: {properties: 'cost'},
-    TRAVEL_TO: {properties: 'cost'},
-    EGRESS: {properties: 'cost'}
-  }
-);
+UNWIND range(0, size(nodeIds) - 2) AS i
+
+WITH
+  route_source,
+  route_destination,
+  i + 1 AS step,
+  totalCost,
+  gds.util.asNode(nodeIds[i]) AS origin,
+  gds.util.asNode(nodeIds[i + 1]) AS destination,
+  costs[i + 1] AS cumulativeCost
+
+// Prefer the physical relationship in the path direction. Only fall back to
+// the reverse relationship for relationships projected as UNDIRECTED.
+OPTIONAL MATCH (origin)-[forward]->(destination)
+
+WITH
+  route_source,
+  route_destination,
+  step,
+  totalCost,
+  origin,
+  destination,
+  cumulativeCost,
+  collect(forward)[0] AS forward_relationship
+
+OPTIONAL MATCH (origin)<-[reverse]-(destination)
+
+WITH
+  route_source,
+  route_destination,
+  step,
+  totalCost,
+  origin,
+  destination,
+  cumulativeCost,
+  forward_relationship,
+  collect(reverse)[0] AS reverse_relationship
+
+WITH
+  route_source,
+  route_destination,
+  step,
+  totalCost,
+  origin,
+  destination,
+  cumulativeCost,
+  CASE
+    WHEN forward_relationship IS NOT NULL THEN forward_relationship
+    ELSE reverse_relationship
+  END AS relationship
+
+RETURN
+  // add route_id as source-destination string
+  coalesce(route_source.id, route_source.poi_name) + ' to ' + coalesce(route_destination.id, route_destination.poi_name) AS route_id,
+  step,
+  coalesce(origin.id, origin.poi_name) AS origin,
+  coalesce(destination.id, destination.poi_name) AS destination,
+  relationship.tram as tram,
+  relationship.type AS edge_type,
+  type(relationship) AS relationship_type,
+  relationship.cost AS edge_cost,
+  cumulativeCost,
+  totalCost
+ORDER BY step;
+

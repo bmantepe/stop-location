@@ -399,3 +399,15 @@ per als egress, hi havia algunes parades bus-metro que eren iguals i aixo genera
 
 acabat de carregar tot be a neo4j
 
+# 14 set 
+
+installar gds.graph.project per tal de fer djikstra
+
+encara hi ha errors amb la parada 119 de metro i altes que tinguin el mateix id -> corregir exchange edges
+
+tb hi havia un error amb els wait times de metro. com que el join es feia amb nom de parada, les parades amb +1 linia no es duplicaven. fer el join amb. la linia ho soluciona
+
+els edges d'exchange de metro només tenen el walking time, afegire un minut que simbolitza el sortir del metro
+
+
+
