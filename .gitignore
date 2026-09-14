@@ -18,6 +18,7 @@ Data/Neigh/cataluna-260811.osm.pbf
 #Nodes/
 Edges/Exchanges.csv
 Edges/Exchanges_with_Wait_Times.csv
+Edges/IU-Bus.csv
 
 commands.txt
 # Data/GTFS_TMB/
