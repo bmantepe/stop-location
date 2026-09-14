@@ -15,8 +15,10 @@ Data/Neigh/Barcelona.osm.pbf
 Data/trajectory_cache/
 Data/Neigh/cataluna-260811.osm.pbf
 .venv/
-Nodes/
-Edges/
+#Nodes/
+Edges/Exchanges.csv
+Edges/Exchanges_with_Wait_Times.csv
+
 commands.txt
 # Data/GTFS_TMB/
 # Data/GTFS_AMB/
