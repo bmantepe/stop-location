@@ -22,6 +22,7 @@ Edges/IU-Bus.csv
 .vscode/
 .bevel/
 lib/
+.DS_Store
 commands.txt
 Data/Djisktra-out/
 # Data/GTFS_TMB/
