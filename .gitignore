@@ -19,8 +19,11 @@ Data/Neigh/cataluna-260811.osm.pbf
 Edges/Exchanges.csv
 Edges/Exchanges_with_Wait_Times.csv
 Edges/IU-Bus.csv
-
+.vscode/
+.bevel/
+lib/
 commands.txt
+Data/Djisktra-out/
 # Data/GTFS_TMB/
 # Data/GTFS_AMB/
 

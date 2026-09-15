@@ -410,4 +410,24 @@ tb hi havia un error amb els wait times de metro. com que el join es feia amb no
 els edges d'exchange de metro només tenen el walking time, afegire un minut que simbolitza el sortir del metro
 
 
+# 15 set 
+
+mirar el cost del path que pillo jo
+
+he calculat tots els best paths, on veig que tendeixen a afavorir trajectes en bus més que en metro o alters. Solució -> ajustar la vl
+Ajustare les velocitats fent servir les dades de : chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.tmb.cat/documents/20182/94438/Dades_Basiques_2026.pdf/9138733c-7491-ae38-1e0e-39b0159027ad?t=1778651029190
+
+
+per a les de fgc podria fer servit aquests, pero tenen velocitats mes lenetes, 
+
+https://indicadors.institutmetropoli.cat/indicador-1241-velocitat-comercial-servei-fgc
+
+mateixes dades, tot junt
+
+https://ce.atm.cat/es/web/observatori/w/velocidad-comercial-tp?filterCategoryIds=undefined&operationType=AND
+
+
+arreglat una mica l'impacte, pero el que és més important és linici. tot i aixi les solucions tenen més % edges metro dels que hi ha en realitat
+
+
 
