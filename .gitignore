@@ -12,7 +12,7 @@ Data/.DS_Store
 Data/Neigh/.DS_Store
 Data/Neigh/elevacions-terreny-lidar-Catalunya-2m-2008-2011tif1786456535055.tif
 Data/Neigh/Barcelona.osm.pbf
-Data/trajectory_cache/
+Data/trajectory_cache_by_type/
 Data/Neigh/cataluna-260811.osm.pbf
 .venv/
 #Nodes/
@@ -25,6 +25,7 @@ lib/
 .DS_Store
 commands.txt
 Data/Djisktra-out/
+route_checkpoints/
 # Data/GTFS_TMB/
 # Data/GTFS_AMB/
 

@@ -429,5 +429,11 @@ https://ce.atm.cat/es/web/observatori/w/velocidad-comercial-tp?filterCategoryIds
 
 arreglat una mica l'impacte, pero el que és més important és linici. tot i aixi les solucions tenen més % edges metro dels que hi ha en realitat
 
+# 19 setembre
+
+començar a mirar la optimització i solució. Al ser el problema força petit (924 * 25) pot ser que no facin falta heuristiques.
+
+preparat els parametres de temps en IU bus, rest time del conductor i frequencia
+
 
 
