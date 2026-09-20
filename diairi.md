@@ -436,4 +436,10 @@ començar a mirar la optimització i solució. Al ser el problema força petit (
 preparat els parametres de temps en IU bus, rest time del conductor i frequencia
 
 
+# 20 setembre 
+
+hem trobat la millor solució
+to-do -> comprovar amb algun subset que funcitoni bé i refer el càlcul a mà
+tornar a carregar neo4j per retornar els linestrings i plotejar la solució
+
 

@@ -26,6 +26,9 @@ lib/
 commands.txt
 Data/Djisktra-out/
 route_checkpoints/
+.claude/
+Data/Feed_optimization/
+
 # Data/GTFS_TMB/
 # Data/GTFS_AMB/
 

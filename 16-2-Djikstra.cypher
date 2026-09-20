@@ -76,9 +76,10 @@ RETURN
   coalesce(destination.id, destination.poi_name) AS destination,
   relationship.tram as tram,
   relationship.type AS edge_type,
-  type(relationship) AS relationship_type,
   relationship.cost AS edge_cost,
   cumulativeCost,
-  totalCost
+  totalCost,
+  relationship.geometry AS geometry
+
 ORDER BY route_id, step;
 
