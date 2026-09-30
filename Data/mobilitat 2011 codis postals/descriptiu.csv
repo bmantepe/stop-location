@@ -1,0 +1,48 @@
+;CA;ES;EN
+;Cens de població i habitatges 2011. Mobilitat obligada. Municipis de més de 200.000 habitants per codis postals;Censo de población y viviendas 2011. Movilidad obligada. Municipios de más de 200.000 habitantes por códigos postales;Population and Housing Census 2011. Commuting. Municipalities of 200,000 inhabitants or more by postcodes
+;Font: Idescat, a partir del Cens de població i habitatges de l'INE.;Fuente: Idescat, a partir del Censo de población y viviendas del INE.;Source: Idescat, from the INE's Population and Housing Census.
+;Desagregació territorial: municipis i codis postals;Desagregación territorial: municipios y códigos postales;Territorial breakdown: municipalities and post codes
+;Any de referència: 2011;Año de referencia: 2011;Year of reference: 2011
+;L’explotació inframunicipal del Cens de població 2011 es basa íntegrament en les dades provinents d'una enquesta adreçada a la població resident en habitatges familiars que va formar part de l’operació censal. Els resultats han estat convenientment arrodonits i es mostren sense decimals, i per això algun total pot no coincidir amb la suma de la seva desagregació. A més de l’explotació inframunicipal per districtes i seccions, s’ofereixen resultats per municipis, que poden presentar alguna diferència amb els resultats per municipis obtinguts del fitxer precensal (variables de sexe, edat, nacionalitat i lloc de naixement).;La explotación inframunicipal del Censo de población 2011 se basa íntegramente en los datos provenientes de una encuesta dirigida a la población residente en viviendas familiares que formó parte de la operación censal. Los resultados han sido convenientemente redondeados y se muestran sin decimales, y por eso algún total puede no coincidir con la suma de su desagregación. Además de la explotación inframunicipal por distritos y secciones, se ofrecen resultados por municipios, que pueden presentar alguna diferencia con los resultados por municipios obtenidos del fichero precensal (variables de sexo, edad, nacionalidad y lugar de nacimiento).;The inframunicipal results of the Population Census 2011 are based entirely on data from a survey that was part of the census operation which was aimed at the population living in family dwellings. The results have been rounded appropriately and are shown without decimals, meaning some of the totals may not match the sum of the breakdown. Apart from inframunicipal processing by districts and sections, results are also offered by municipalities, which may vary slightly from the municipal results obtained from the pre-census file (variables of sex, age, nationality and place of birth).
+;Per a mes informació:;Para más información:;For more information:
+;http://www.idescat.cat/estad/censph;http://www.idescat.cat/estad/censph?lang=es;http://www.idescat.cat/estad/censph?lang=en
+;"Les caselles calculades amb menys de 10 unitats mostrals apareixen amb el símbol "".."".";"Las casillas calculadas con menos de 10 unidades muestrales aparecen con el símbolo "".."".";"Boxes having less than 10 sample units contain the symbol ""··"""
+
+Fitxers;CA;ES;EN
+por-ar.csv;Taula POR i AR;Tabla POR y AR;Table REP and RS
+ltl-lel.csv;Taula LTL i LEL ;Tabla LTL y LEL;C Table LPW and LPS
+origen-dest.csv;Matriu origen destinació;Matriz origen destino;Origin and destination matrix
+dest-origen.csv;Matriu  destinació origen;Matriz  destino origen;Destination and origin matrix
+
+Variables;CA;ES;EN
+MUNIORIGEN;Municipi de residència (origen);Municipio de residencia (origen);Municipality of residence (origin)
+MUNIDESTI;Municipi de treball o estudi (destinació);Municipio de trabajo o estudio (destino);Municipality of work or study (destination)
+CPORIGEN;Codi postal de residència (origen);Código postal de residencia (origen);Post code by residence (origin)
+CPDESTI;Codi postal de treball o estudi (destinació);Código postal de trabajo o estudio (destino);Post code by work or study (destination)
+ORIGEN;Origen;Origen;Origin
+DESTI;Destinació;Destino;Destination
+RAO;Raó de desplaçament;Razón del desplazamiento;Reason for commuting
+PERSONES;Persones que es desplacen;Personas que se desplazan;People that commute
+V1;Al mateix codi postal;Al mismo código postal;To the same post code
+V2;A un altre codi postal del mateix municipi;A otro código postal del mismo municipio;To a different post code of the same municipality 
+V3;Al mateix municipi;Al mismo municipio;To the same municipality
+V4;A fora del municipi;Fuera del municipio;Out of the municipality
+V5;Població ocupada resident i alumnes residents;Población ocupada residente y alumnos residentes;Resident employed population and resident students
+V6;Des del mateix codi postal;Desde el mismo código postal;From the same post code
+V7;Des d'un altre codi postal del mateix municipi;Desde otro código postal del mismo municipio;From another post code of the same municipality
+V8;Des del mateix municipi;Desde el mismo municipio;From the same municipality
+V9;Des d'un altre municipi;Desde otro municipio;From another municipality
+V10;Llocs de treball localitzats i llocs d'estudi localitzats;Lugares de trabajo localizados y lugares de estudio localizado;Located places of work and located places of study
+
+Categories;CA;ES;EN
+RAO;Treball;Trabajo;Work
+RAO;Estudi;Estudio;Study
+ORIGEN;Codi postal d'origen si és el mateix municipi de treball o estudi;Código postal de origen si es el mismo municipio de trabajo o estudio;Post code of origin if it is the same municipality of work and study
+ORIGEN;Municipi d'origen (10 unitats mostrals o més);Municipio de origen (10 unidades muestrales o más);Municipality of origin (10 or more sample units)
+ORIGEN;Altres municipis d'origen (menys de 10 unitats mostrals);Otros municipios de origen (menos de 10 unidades muestrales);Other municipalities of origin (less than 10 sample units)
+ORIGEN;Total d'origen;Total de origen;Total of origin
+DESTI;Codi postal de destinació si és el mateix municipi de residència;Código postal de destino si es el mismo municipio de residencia;Post code of destination if it is the same municipality of residence
+DESTI;Municipi de destinació (10 o més unitats mostrals);Municipio de destino (10 unidades muestrales o más);Municipality of destination (10 or more sample units)
+DESTI;Diversos municipis de destinació;Varios municipios de destino;Several municipalities of destination
+DESTI;Altres municipis de destinació (menys de 10 unitats mostrals);Otros municipios de destino (menos de 10 unidades muestrales);Other municipalities of destination (less than 10 sample units)
+DESTI;Total de destinació;Total de destino;Total of destination

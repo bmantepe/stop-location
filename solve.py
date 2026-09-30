@@ -199,7 +199,7 @@ if __name__ == "__main__":
     T0 = 5                    # h      <-- NOT in your data: placeholder (paper's 2 h rush hour)
     VOT = 12                     # EUR/h
     RHO_O = RHO_U = 0.5
-    N_STOPS = 3            # stops after the gate; use None for free length (paper)
+    N_STOPS = 2          # stops after the gate; use None for free length (paper)
     P_MAX = 1                    # p in (11); with one route there is exactly one terminal
 
     model = build_model(K, J, GATE, d, t_min, dist,

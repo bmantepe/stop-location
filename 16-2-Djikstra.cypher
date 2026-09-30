@@ -79,7 +79,6 @@ RETURN
   relationship.cost AS edge_cost,
   cumulativeCost,
   totalCost,
-  relationship.geometry AS geometry
 
 ORDER BY route_id, step;
 

@@ -15,9 +15,12 @@ spod_set_data_dir(data_dir = "~/spanish_od_data")
 
 
 ```{r}
-distritos <- spod_get_zones("distritos", ver = 2)
+distritos <- spod_get_zones("distr", ver = 2)
 ```
 
+```{r}
+distritos
+```
 
 
 

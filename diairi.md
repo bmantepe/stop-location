@@ -443,3 +443,50 @@ to-do -> comprovar amb algun subset que funcitoni bé i refer el càlcul a mà
 tornar a carregar neo4j per retornar els linestrings i plotejar la solució
 
 
+## 22 setembre
+
+Cambiat els pois èr centroides (més fàcil) i ajustat demand per tal que sigui igual per cada poi i depennedn de freq * bus_cap * hores
+Sant Genís dels Agudells -> no troba best path
+
+
+# 23 de setembre
+
+busco dades de pois
+1. Preguntar a en ferran -> li he enviat un correu a la lídia
+2. dades de on és la gent i on estudien
+3. Dades més detallades zip O - D . Mobilitat onbligada : https://www.idescat.cat/mobilitat/?n=1. taula bona (dest-origen). No prou detallat. V cols -> versions del cens (crec)
+
+
+# 24 de setembre
+
+idea pois -> tenim demanda per barri, dividir-la per punts d'interès en el districte
+seguir buscant papers
+
+buscar dades de picatges ATM : https://www.omc.cat/en/w/transmet-xifres?p_l_back_url=%2Fweb%2Fobservatori%2Fcercador%3Fq%3Dtransm&p_l_back_url_title=Cercador -> no útil
+
+https://ca-sermetra.atm.cat/ca/web/observatori/w/validacions-sti-barcelona-segons-zona
+
+
+paper : ={New modifications to bus network design methodology}, bona pinta, un autor es el mateix, pero no tinc accés
+
+Design and Implementation of Efficient Transit Networks: Procedure, Case Study and Validity Test}, -> mateixa autora, pero problema completament diferent
+
+
+# 28 de setembre
+
+El bus feeder network es el problema invers al que necesito, busquem invertint la query
+
+aquest sembla molt semblant, però només considera conectivitat, no destins finals als que arriba : http://sciencedirect.com/science/article/pii/S0957417420309179
+
+
+# 29 de setemrbe
+http://sciencedirect.com/science/article/pii/S0957417420309179 -> no és un problema comparable
+
+https://www.sciencedirect.com/science/article/pii/S0191261523000723 -> no és útil, dissenya un subset de xarxes, que cobreix totes les O-D
+
+
+# 30 de setembre
+
+https://www.sciencedirect.com/science/article/pii/S0957417421012732 -> té bona pinta
+
+https://www.tandfonline.com/doi/abs/10.1080/23249935.2020.1719547 -> pintaca però no tinc accés
