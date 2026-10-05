@@ -490,3 +490,25 @@ https://www.sciencedirect.com/science/article/pii/S0191261523000723 -> no és ú
 https://www.sciencedirect.com/science/article/pii/S0957417421012732 -> té bona pinta
 
 https://www.tandfonline.com/doi/abs/10.1080/23249935.2020.1719547 -> pintaca però no tinc accés
+
+tb té bona pinta : http://researchgate.net/publication/322531321_Multimodal_transit_network_design_in_a_hub-and-spoke_network_framework/link/5a8310810f7e9bda86a1d525/download?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
+
+# 5 octubre
+
+el paper no era tan bo, dissenyava nomes nodes finals, sense tenir en compte trasbords, pero dissenyabva a la ciutat Origen i a la destí
+
+
+trobat bones dades de facilities aqui : https://ide.amb.cat/Visor/?locale=en, però no i ha oficines privades
+
+aqui tb hi ha dades interessants, però masses semblants a les de dalt
+
+https://dadesobertes.diba.cat/datasets/cens-dactivitats-i-establiments -> esta truncat
+
+cens comercial bcn : https://opendata-ajuntament.barcelona.cat/data/ca/dataset/cens-locals-planta-baixa-act-economica/resource/38babeec-5c47-43d3-84e7-b13a4b89004f no dona noms ni tipus d'establiments
+
+atles estructura urbana AMB -> https://estructuraurbanacomercial.amb.cat/ -> no donen les dades raw, nms visualitzacions
+
+he netejat bastant el dataset de AMB, pero la majoria son unis
+osmx pinta a que pot tenir oficines, seguir investigan
+
+tb llegir mes papers

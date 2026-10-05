@@ -17,6 +17,7 @@ Data/Neigh/Barcelona.osm.pbf
 Data/trajectory_cache_by_type/
 Data/Neigh/cataluna-260811.osm.pbf
 .venv/
+Data/facilities/
 #Nodes/
 Edges/Exchanges.csv
 Edges/Exchanges_with_Wait_Times.csv

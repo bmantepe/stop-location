@@ -171,9 +171,11 @@ if __name__ == "__main__":
     metro_sol = pd.read_csv('Nodes/N-Metro-Sol.csv')
     tram_sol = pd.read_csv('Nodes/N-Tram-Sol.csv')
     pois = pd.read_csv('Nodes/N-POIs.csv')
+    pois = pois[pois['poi_name'].isin(['Horta','Sant Antoni'])]
 
     GATE = 'Glories - City Gate'
     stops = pd.concat([bus_sol, fgc_sol, metro_sol, tram_sol], ignore_index=True)['id'].tolist()
+    stops = [s for s in stops if s in ['SM-429','SB-3315','SB-1345','Glories - City Gate']]
     K = [GATE] + stops
     J = pois['poi_name'].tolist()
     assert len(set(K)) == len(K), "duplicate stop ids"
@@ -188,6 +190,8 @@ if __name__ == "__main__":
     dist = {(r.origen, r.dest): r.distance for r in costs.itertuples()}
     demand = pd.read_csv('Data/Feed_optimization/Demand_matrix.csv')
     d = demand.iloc[0].to_dict()
+    # select only destination 'Horta'
+    d = {k: v for k, v in d.items() if k in ['Horta','Sant Antoni']}
     # (long format instead?)  d = dict(zip(demand['poi_name'], demand['demand']))
 
     # ---------------- CONSTANTS ----------------
