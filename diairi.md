@@ -512,3 +512,35 @@ he netejat bastant el dataset de AMB, pero la majoria son unis
 osmx pinta a que pot tenir oficines, seguir investigan
 
 tb llegir mes papers
+
+
+# 9 octubre
+
+osmxn te oficines i n'estic seleccionant algunes manualment per poder tenir-ne una mica a cada barri. Tb unis i hospitals i bancs si fes falta
+
+# 12 octubre
+
+
+acabar punts, roddrigo els aprova
+
+
+# 18 octubre
+
+Reordenar scripts per fer lloc pels nous punts
+Amb les dades de demanda dividir-la entre els punts
+
+cp no encaixen amb els barris, fer un mapeig diferent
+
+# 19 oct
+
+mapejat els pois amb cp : https://github.com/inigoflores/ds-codigos-postales/blob/master/data/BARCELONA.geojson
+
+vist que desde mataro no hi ha dades fins a tots els cp, el que vol dir que molts pois estarien sense fer servir.
+
+Opcions:
+
+1. Ignorar los puntos que caen en códigos postales dónde no hay datos
+
+2. Simplemente agregar la demanda total para cada código postal de destino, y estandarizar usando el total de personas que pueden llevar los buses de mataró a barcelona : capacidad del bus * buses/h * horas de servicio. Este paso lo tendría que hacer igualmente, ya que al tener una función objetivo con costes de operador y de usuario, si la demanda fuese superior a la capacidad de los buses (que no es controlado por ninguna restricción) una parte de la ecuación dominaría a la otra.
+
+enviat correu rodrigo demanant consell
