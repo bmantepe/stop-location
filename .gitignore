@@ -1,6 +1,6 @@
 cache/
 Articles and Papers/
-Images/
+#Images/
 test.ipynb
 diari.md
 graph_structure.md
