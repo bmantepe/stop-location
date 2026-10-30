@@ -40,7 +40,7 @@ id,name,geometry,barri,COD_POSTAL
 39,Clínica Teknon,POINT (2.127860283943652 41.40639100827534),Sant Gervasi - la Bonanova,08017
 40,Hospital de l'Esperança,POINT (2.154588302659929 41.410660643147835),la Salut,08024
 41,Consorci Mar Parc de Salut de Barcelona,POINT (2.2185028424519975 41.41282743646555),el Besòs i el Maresme,08019
-42,Hospital Sant Joan de Déu,POINT (2.101938972459569 41.384279146786874),,nan
+42,Hospital Sant Joan de Déu,POINT (2.101938972459569 41.384279146786874),les Corts,08034
 43,Capio Hospital Universitari Sagrat Cor,POINT (2.145587319733683 41.38891602802494),la Nova Esquerra de l'Eixample,08029
 44,Hospital Casa Maternitat,POINT (2.123544926746908 41.38519739192677),la Maternitat i Sant Ramon,08028
 45,Hospital de Barcelona,POINT (2.1297585940269093 41.38989659462465),les Corts,08034

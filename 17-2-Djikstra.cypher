@@ -1,5 +1,5 @@
 MATCH (source:StopSol),
-      (destination:POI {poi_name: 'Zona Universitària'})
+      (destination:POI)
 
 CALL gds.shortestPath.dijkstra.stream('transport-routing', {
   sourceNode: source,
@@ -79,6 +79,4 @@ RETURN
   relationship.cost AS edge_cost,
   cumulativeCost,
   totalCost
-
-ORDER BY route_id, step;
 

@@ -544,3 +544,16 @@ Opcions:
 2. Simplemente agregar la demanda total para cada código postal de destino, y estandarizar usando el total de personas que pueden llevar los buses de mataró a barcelona : capacidad del bus * buses/h * horas de servicio. Este paso lo tendría que hacer igualmente, ya que al tener una función objetivo con costes de operador y de usuario, si la demanda fuese superior a la capacidad de los buses (que no es controlado por ninguna restricción) una parte de la ecuación dominaría a la otra.
 
 enviat correu rodrigo demanant consell
+
+
+# 30 octubre 
+
+demanda estandaritzada (%) i ignorant l'origen, només fent que sigui diferent a barcelona
+
+calcular nous edges egress, amb els nous pois i mirant que els mateixos stop id per diferents stop types no causin problemes : fet
+
+calculat djisktras, he hagut re eliminar lorder by per q sino era massa memoria, pero tenim els paths
+
+to do -> optimització OR i altres linies de bus
+
+
