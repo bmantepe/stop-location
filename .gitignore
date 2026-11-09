@@ -1,6 +1,7 @@
 cache/
 Articles and Papers/
 #Images/
+__pycache__/
 test.ipynb
 diari.md
 graph_structure.md

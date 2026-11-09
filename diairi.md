@@ -557,3 +557,47 @@ calculat djisktras, he hagut re eliminar lorder by per q sino era massa memoria,
 to do -> optimització OR i altres linies de bus
 
 
+
+# 3 novembre
+
+ortools dona alguns solvers bons, les heuristiques no semblen facils d'aplicar a no ser que siguin manualment
+
+# 5 novembre
+
+creat les primeres solucions amb diferents n stops amb solvers exactes (loop)
+
+1. standard: provar 
+
+Experiment	Solver	Heuristics
+1	HiGHS	Default
+2	HiGHS	High
+3	SCIP	Default
+4	SCIP	High
+5	SCIP	Very high
+
+tarda una bona estona, especialment per moltes parades, i son moltes comprovacions a fer 8 nstops * 2 solvers * 6 nivels
+
+2. Large neighbourhood search amb el buil in CP Sat
+
+contriut aixo, falta provar
+
+
+# 6 novembre
+
+he vist que no tots els pois estan a l'output del model
+cost matrix li falten  27,54,93 pq no estan a l'egress -> cap problema son points of interest no accessibles, els elimino
+
+corregir pq el cost dels usuaris sigui la suma de la trajectoria en el bus, no el temps gate -> parada a la que baixen
+el solver tarda molt : potser reduïr parades de bus encara més
+
+per reduir l'imbalance de oc i uc -> reduir els pesos
+
+# 9 novembre
+
+idea: reduir les rutes per cada poi a les millors (top 100) fet, reduim de 1451812 a 9500 paths (95 pois * 100 rutes) mantenint les millors rutes.
+
+reduir el 5 < x < 20 a  5 < x < 15  -> fet - reduim de 398442 a 241704 rutes
+
+reduir el nombre de parades : to do
+ 
+
