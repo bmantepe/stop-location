@@ -17,9 +17,14 @@ Written from the PuLP model (interurban_bnd_pulp.py), with ONE change in the use
 
 How T_k is written in the MILP (T_k is only needed for the stops that are on the route):
   * T_gate = 0 and, for every used arc (k, l):  T_l >= T_k + t_kl          (arrival times)
-  * w_kj >= T_k - T_cap*(1 - z_kj)       so w_kj = T_k when z_kj = 1 and 0 otherwise
-    The cost uses w_kj, so the solver keeps T_k at the smallest value the arcs allow, which is
-    the real cumulative time.  z must stay binary: this link is only exact for z in {0,1}.
+  * lb_k = shortest time from the gate to k over the arcs (Dijkstra). Any route reaches k no
+    earlier than lb_k, so T_k = lb_k + detour_k with detour_k >= 0.
+  * The cost of the users that get off at k is  d_j * (lb_k + t_kj + detour_kj), where
+    e_kj >= T_k - lb_k - (T_cap - lb_k)*(1 - z_kj) is the detour paid when z_kj = 1.
+    The part lb_k + t_kj is linear in z, so the LP relaxation already contains the cost with
+    direct times; the big-M only acts on the (small) detour. This is what makes it solvable.
+    The solver keeps T_k as small as the arcs allow, i.e. the real cumulative time.
+    z must stay binary: the big-M link is only exact for z in {0,1}.
   * Every arc takes > 0 min, so a cycle would need T to grow around it: loops are impossible.
     The T variables therefore replace the MTZ constraints of the PuLP model.
 
@@ -31,6 +36,7 @@ from __future__ import annotations
 
 import argparse
 from datetime import timedelta
+import heapq
 import json
 import math
 from pathlib import Path
@@ -92,19 +98,15 @@ def build_model(K, J, gate, demand, t_min, dist, *, freq, t_outside_h, t_rest_h,
     """
     kid = {k: i for i, k in enumerate(K)}
     jid = {j: i for i, j in enumerate(J)}
-    print(f'len candidate stops K = {len(K)}, destinations J = {len(J)}')
 
     # arcs into the gate are never used by a route, so they are not created
     arcs = [(k, l) for k in K for l in K
             if k != l and l != gate and (k, l) in t_min and (k, l) in dist]
-
-    print(f'len arcs = {len(arcs)}')
     if not any(a[0] == gate for a in arcs):
         raise ValueError("No arcs leave the city gate")
     if any(t_min[a] <= 0 for a in arcs):
         raise ValueError("Every stop->stop arc must take > 0 min (needed to exclude loops)")
     pairs = [(k, j) for k in K for j in J if (k, j) in t_min]
-    print(f"Feasible stop-destination pairs: {len(pairs)}")
     uncovered = set(J) - {j for _, j in pairs}
     if uncovered:
         raise ValueError(f"Destinations without any reachable transfer stop: {sorted(uncovered)}")
@@ -125,6 +127,24 @@ def build_model(K, J, gate, demand, t_min, dist, *, freq, t_outside_h, t_rest_h,
         out_arcs[a[0]].append(a)
         in_arcs[a[1]].append(a)
 
+    # lb_k: shortest time from the gate to k over the arcs (Dijkstra). A route cannot reach k earlier.
+    lb = {gate: 0.0}
+    heap = [(0.0, 0, gate)]
+    tie = 0
+    best = {gate: 0.0}
+    while heap:
+        dk, _, k = heapq.heappop(heap)
+        if dk > best.get(k, math.inf):
+            continue
+        for a in out_arcs[k]:
+            nd = dk + t_min[a]
+            if nd < best.get(a[1], math.inf):
+                best[a[1]] = nd
+                tie += 1
+                heapq.heappush(heap, (nd, tie, a[1]))
+    lb = {k: best.get(k, math.inf) for k in K}
+    unreachable = [k for k in K if k != gate and lb[k] > t_cap]     # cannot be on any route
+
     model = mathopt.Model(name="Interurban_BNDP_cumulative_time")
 
     # ---- decision variables
@@ -132,16 +152,12 @@ def build_model(K, J, gate, demand, t_min, dist, *, freq, t_outside_h, t_rest_h,
     term = {k: model.add_binary_variable(name=f"Term_{kid[k]}") for k in K if k != gate}   # k in P
     z = {p: model.add_binary_variable(name=f"Z_{kid[p[0]]}_{jid[p[1]]}") for p in pairs}   # transfer stop
     buses = model.add_integer_variable(lb=0, name="Buses")
-    # arrival time (min) at each stop, measured from the gate
-    T = {k: model.add_variable(lb=0.0, name=f"T_{kid[k]}") for k in K if k != gate}
-    #T = {k: model.add_variable(lb=0.0, ub=t_cap, name=f"T_{kid[k]}") for k in K if k != gate}
-
-    # w_kj = in-bus time of the users that get off at k and go to j
-    w = {(k, j): model.add_variable(lb=0.0, name=f"W_{kid[k]}_{jid[j]}")
-         for k, j in pairs if k != gate}
-
-    # w = {(k, j): model.add_variable(lb=0.0, ub=t_cap, name=f"W_{kid[k]}_{jid[j]}")
-    #          for k, j in pairs if k != gate}
+    # arrival time (min) at each stop, measured from the gate; never below the shortest time lb_k
+    T = {k: model.add_variable(lb=min(lb[k], t_cap), ub=t_cap, name=f"T_{kid[k]}")
+         for k in K if k != gate}
+    # e_kj = detour (min) paid by the users that get off at k and go to j: T_k - lb_k when z_kj = 1
+    w = {(k, j): model.add_variable(lb=0.0, ub=max(t_cap - lb[k], 0.0), name=f"E_{kid[k]}_{jid[j]}")
+         for k, j in pairs if k != gate and lb[k] <= t_cap}
     # on_route_k = 1 if the route stops at k. It equals the sum of the (at most one) arcs entering k,
     # so it is integral without being declared binary.
     on_route = {k: model.add_variable(lb=0.0, ub=1.0, name=f"On_{kid[k]}") for k in K if k != gate}
@@ -157,7 +173,9 @@ def build_model(K, J, gate, demand, t_min, dist, *, freq, t_outside_h, t_rest_h,
 
     # ---- user cost: Eq. (6) with the in-bus time accumulated along the route
     user_cost = vot * (
-        mathopt.fast_sum(demand[j] * (t_min[(k, j)] / 60.0) * z[(k, j)] for k, j in pairs)
+        mathopt.fast_sum(
+            demand[j] * ((min(lb[k], t_cap) + t_min[(k, j)]) / 60.0) * z[(k, j)] for k, j in pairs
+        )
         + mathopt.fast_sum(demand[j] / 60.0 * w[(k, j)] for k, j in w)
     )
 
@@ -195,12 +213,16 @@ def build_model(K, J, gate, demand, t_min, dist, *, freq, t_outside_h, t_rest_h,
     for k in on_route:
         model.add_linear_constraint(on_route[k] == mathopt.fast_sum(x[a] for a in in_arcs[k]),
                                     name=f"OnRouteDef_{kid[k]}")
+    for k in unreachable:                              # farther from the gate than the cap
+        model.add_linear_constraint(on_route[k] == 0, name=f"Unreachable_{kid[k]}")
     for k, j in pairs:
         if k != gate:                                  # users can always get off at the gate
             model.add_linear_constraint(z[(k, j)] <= on_route[k], name=f"OnRoute_{kid[k]}_{jid[j]}")
-            # w_kj >= T_k when z_kj = 1
-            model.add_linear_constraint(w[(k, j)] >= T[k] - t_cap + t_cap * z[(k, j)],
-                                        name=f"Wlink_{kid[k]}_{jid[j]}")
+            if (k, j) in w:
+                # detour e_kj >= T_k - lb_k when z_kj = 1  (big-M only over the range t_cap - lb_k)
+                model.add_linear_constraint(
+                    w[(k, j)] >= T[k] - lb[k] - (t_cap - lb[k]) + (t_cap - lb[k]) * z[(k, j)],
+                    name=f"Elink_{kid[k]}_{jid[j]}")
 
     # ---- route length [NOT in the paper]: every used arc reaches one new stop
     if n_stops is not None:
@@ -285,16 +307,12 @@ def main():
     parser.add_argument("--n-stops", type=int, default=2,
                         help="stops after the gate; omit for free length (paper)")
     parser.add_argument("--stops-mode", choices=("max", "exact"), default="exact")
-    parser.add_argument("--t-max", type=float, default=60,
+    parser.add_argument("--t-max", type=float, default=85.0,
                         help="cap on the minutes inside the city, one way (NOT in the paper)")
     parser.add_argument("--demand-scale", type=float, default=1.0)
     args = parser.parse_args()
 
-
-
     K, J, demand, t_min, dist, gate = load_data(args.root)
-
-
     demand = {j: v * args.demand_scale for j, v in demand.items()}
     built = build_model(K, J, gate, demand, t_min, dist,
                         freq=4.4, t_outside_h=45 / 60, t_rest_h=5.8333333 / 60,
@@ -314,7 +332,7 @@ def main():
 
     out_dir = args.root / "Opt_Res"
     out_dir.mkdir(exist_ok=True)
-    name = f"solution_cum_{args.n_stops}_stops_x{args.demand_scale:g}.json"
+    name = f"solution_cum_{args.stops_mode}_{args.n_stops}_stops_x{args.demand_scale:g}.json"
     with open(out_dir / name, "w") as f:
         json.dump(solution, f, indent=2)
 

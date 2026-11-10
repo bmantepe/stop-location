@@ -594,10 +594,14 @@ per reduir l'imbalance de oc i uc -> reduir els pesos
 
 # 9 novembre
 
-idea: reduir les rutes per cada poi a les millors (top 100) fet, reduim de 1451812 a 9500 paths (95 pois * 100 rutes) mantenint les millors rutes.
+idea: reduir les rutes per cada poi a les millors (top 100) fet, reduim de 1451812 a 9500 paths (95 pois * 100 rutes) mantenint les millors rutes. 
 
 reduir el 5 < x < 20 a  5 < x < 15  -> fet - reduim de 398442 a 241704 rutes
 
 reduir el nombre de parades : to do
+
+# 10 novembre
+
+top 100 no funcuiona pq pot ser q per una solució algun poi no sigui reacheable
  
 
