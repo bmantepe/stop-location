@@ -2,6 +2,7 @@ cache/
 Articles and Papers/
 #Images/
 __pycache__/
+Opt_Res/
 test.ipynb
 diari.md
 graph_structure.md
