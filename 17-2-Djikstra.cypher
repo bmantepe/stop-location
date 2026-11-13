@@ -80,3 +80,4 @@ RETURN
   cumulativeCost,
   totalCost
 
+order by route_id, step

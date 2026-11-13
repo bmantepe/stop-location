@@ -605,3 +605,15 @@ reduir el nombre de parades : to do
 top 100 no funcuiona pq pot ser q per una solució algun poi no sigui reacheable
  
 
+# 11 novembre
+
+optimitzat el solver amb l'ordinador de la feina
+mha donat heuristiques bones
+to-do -> reduïr parades i potser pois també
+
+# 13 novembre
+
+reudït alguns pois
+aplicant logica del paper per reduïr numero de parades de bus -> adaptada i tenim 100 punts de bus :)
+to-do -> carregar el grpaha neo4j, demand matrix, costmatrix...
+a edges egress el poi 45 surt null en algunes entries i no va be al neor4j, tb passar el format a int (o fer que l'id sigui el nom xd)

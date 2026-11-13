@@ -1,96 +1,87 @@
 id,name,geometry,barri,COD_POSTAL
 1,Escola Universitaria Mediterrani,POINT (2.1522286 41.3803164),la Nova Esquerra de l'Eixample,08015
-2,EINA,POINT (2.1143208 41.4028648),Sarrià,08017
-3,Centre d'Estudis Politècnics,POINT (2.1732364 41.388631),"Sant Pere, Santa Caterina i la Ribera",08010
-4,Col·legi Major Universitari Lestonac,POINT (2.1660992 41.3928684),la Dreta de l'Eixample,08007
-5,Escola Port,POINT (2.1955636 41.3925137),la Vila Olímpica del Poblenou,08005
-6,Euroaula,POINT (2.1592325 41.3876943),l'Antiga Esquerra de l'Eixample,08011
-7,Master.D,POINT (2.1495545 41.3853711),la Nova Esquerra de l'Eixample,08029
-8,Institut de Nàutica de Barcelona,POINT (2.1881841 41.375665),la Barceloneta,08039
-9,Hospital del Mar. Institut FP Sanitària,POINT (2.1862012 41.3846929),"Sant Pere, Santa Caterina i la Ribera",08003
-10,Escola Superior de Relacions Públiques,POINT (2.1548775 41.3773076),Sant Antoni,08015
-11,Fundació i2CAT,POINT (2.1855277 41.3810176),la Barceloneta,08039
-12,Institut del Disseny i Arts Gràfiques de Barcelona,POINT (2.190603 41.4275518),la Sagrera,08027
-13,Institut de l'Esport de Barcelona,POINT (2.1481869 41.3748168),Hostafrancs,08014
-14,Facultat de Geografia i Història i Facultat de Filosofia. Universitat de Barcelona,POINT (2.1675737222446645 41.384186627158094),el Raval,08001
-15,Universitat Pompeu Fabra Campus del Poblenou,POINT (2.1940569688282117 41.40396829806385),el Parc i la Llacuna del Poblenou,08018
-16,Campus Ciutadella Universitat Pompeu Fabra,POINT (2.1904142441564645 41.38964524930031),la Vila Olímpica del Poblenou,08005
-17,IED Barcelona - Instituto Europeo de Diseño,POINT (2.1547292127485123 41.40545534236849),la Vila de Gràcia,08012
-18,Campus Nord,POINT (2.1134366933693167 41.3887480847842),Pedralbes,08034
-19,Universitat de Barcelona,POINT (2.163543566996658 41.38687383685572),l'Antiga Esquerra de l'Eixample,08007
-20,Institut de Ciències del Mar (CSIC),POINT (2.195995354039736 41.385533886119056),la Barceloneta,08003
-21,Universitat Pompeu Fabra Campus del Mar,POINT (2.1929706676988476 41.38477687562808),la Barceloneta,08003
-22,ESCI - Universitat Pompeu Fabra,POINT (2.1819762220102867 41.38809537736655),"Sant Pere, Santa Caterina i la Ribera",08003
-23,Facultat de Medicina,POINT (2.1523563822938914 41.38955994259573),l'Antiga Esquerra de l'Eixample,08036
-24,UPF. Rectorat,POINT (2.1797665335412706 41.379050265242846),el Barri Gòtic,08002
-25,Facultat d'Informació i Mitjans Audiovisuals,POINT (2.1393187086504897 41.3810517553174),Sants,08014
-26,Facultat de Dret,POINT (2.120713909815961 41.38760519205639),Pedralbes,08034
-27,"Facultat de Física i Química, Universitat de Barcelona",POINT (2.117218308720762 41.384731337848166),la Maternitat i Sant Ramon,08028
-28,BAU. Centre universitari de disseny,POINT (2.196216877982082 41.397508870680774),el Poblenou,08005
-29,Escola Superior de Conservació i Restauració de Béns Culturals de Catalunya,POINT (2.1859142699911795 41.45195740371087),la Trinitat Nova,08033
-30,Institut Nacional d'Educació Física de Catalunya,POINT (2.1472706777492387 41.36433548167746),el Poble-sec,08038
-31,Parc Científic de Barcelona,POINT (2.117693174510591 41.38175022754133),la Maternitat i Sant Ramon,08028
-32,EINA,POINT (2.112521171305468 41.4087044853863),Sarrià,08017
-33,Universitat Internacional de Catalunya,POINT (2.121043101657743 41.40685548885413),Sarrià,08017
-34,Institut Vall d'Hebron,POINT (2.14028287117007 41.42292579522738),Sant Genís dels Agudells,08035
-35,"Col·legi d'Enginyers de Camins, Canals i Ports de Catalunya",POINT (2.1301368992619505 41.399324524977246),les Tres Torres,08017
-36,Hospital de la Santa Creu i Sant Pau,POINT (2.1745118834368378 41.41401797898207),el Guinardó,08025
-37,Hospital El Pilar,POINT (2.148218469045638 41.40017952518635),Sant Gervasi - Galvany,08006
-38,Clínica Teknon,POINT (2.127860283943652 41.40639100827534),Sant Gervasi - la Bonanova,08017
-39,Hospital de l'Esperança,POINT (2.154588302659929 41.410660643147835),la Salut,08024
-40,Consorci Mar Parc de Salut de Barcelona,POINT (2.2185028424519975 41.41282743646555),el Besòs i el Maresme,08019
-41,Hospital Sant Joan de Déu,POINT (2.101938972459569 41.384279146786874),les Corts,08034
-42,Capio Hospital Universitari Sagrat Cor,POINT (2.145587319733683 41.38891602802494),la Nova Esquerra de l'Eixample,08029
-43,Hospital Casa Maternitat,POINT (2.123544926746908 41.38519739192677),la Maternitat i Sant Ramon,08028
-44,Hospital de Barcelona,POINT (2.1297585940269093 41.38989659462465),les Corts,08034
-45,Hospital del Mar,POINT (2.1939268258554225 41.384015863039096),la Barceloneta,08003
-46,Hospital Universitari Vall d'Hebron,POINT (2.1408379962379156 41.428052306101144),Montbau,08035
-47,Hospital Clínic,POINT (2.1522381105606123 41.38948230941593),l'Antiga Esquerra de l'Eixample,08036
-48,HM Nou Delfos,POINT (2.1423785539557247 41.413664806005244),Vallcarca i els Penitents,08023
-49,Hospital de Nens de Barcelona,POINT (2.173848 41.397336),la Dreta de l'Eixample,08009
-50,Oficines del Govern Central,POINT (2.185525986994082 41.38330258214903),"Sant Pere, Santa Caterina i la Ribera",08003
-51,Agencia Tributaria,POINT (2.2065735414770575 41.41528336780368),Provençals del Poblenou,08020
-52,Barcelona Cicle de l'Aigua SA,POINT (2.1385420173595153 41.350767054736764),la Marina del Prat Vermell,08038
-53,Cornerstone Building A,POINT (2.2019460663970047 41.4045466282113),el Poblenou,08005
-54,Endesa,POINT (2.1824323348991577 41.39220241320747),el Fort Pienc,08018
-55,Torre Glòries,POINT (2.1895208421946526 41.403515224842934),el Parc i la Llacuna del Poblenou,08018
-56,Departament d'Educació de la Generalitat de Catalunya,POINT (2.1398131835032266 41.398325691727436),Sant Gervasi - Galvany,08021
-57,Torres Diagonal Litoral B1,POINT (2.2181082592065473 41.407509506311264),Diagonal Mar i el Front Marítim del Poblenou,08019
-58,Torre Muñoz,POINT (2.159619751868561 41.3958259669172),la Dreta de l'Eixample,08008
-59,Torre Diagonal One,POINT (2.220567453725799 41.41208375980627),el Besòs i el Maresme,08019
-60,Torre Llacuna,POINT (2.1920188041277995 41.40672435846382),Provençals del Poblenou,08018
-61,Agbar,POINT (2.2228151704131207 41.41048847029045),el Besòs i el Maresme,08019
-62,Casa de la Generalitat,POINT (2.1636452072420105 41.37894618818828),el Raval,08001
-63,"Oficines ""La Caixa""",POINT (2.208325644246168 41.407162635399274),Diagonal Mar i el Front Marítim del Poblenou,08019
-64,Betahaus,POINT (2.156651163550632 41.40691713048903),la Vila de Gràcia,08024
-65,Transports Metropolitans de Barcelona,POINT (2.199205591599788 41.43121689219749),el Bon Pastor,08020
-66,Banco Español de Crédito (Banesto),POINT (2.1692674029441696 41.38792137112757),la Dreta de l'Eixample,08007
-67,Oficines del Govern Central,POINT (2.168699663013809 41.386033492800905),la Dreta de l'Eixample,08002
-68,NOVARTIS,POINT (2.1807435546188447 41.39814387957704),el Fort Pienc,08013
-69,Orange Catalunya Xarxa de Telecomunicacions,POINT (2.185957466103148 41.42345763225152),la Sagrera,08027
-70,Hexàgon Glóries,POINT (2.189978218641066 41.399035804389875),el Parc i la Llacuna del Poblenou,08018
-71,Col·legi d'Economistes de Catalunya,POINT (2.152343181807687 41.39994923752552),la Vila de Gràcia,08006
-72,Aigües de Barcelona,POINT (2.108579250958986 41.37847932837243),la Maternitat i Sant Ramon,08028
-73,Wallbox,POINT (2.141148659318715 41.35565584016101),la Marina del Prat Vermell,08038
-74,Generalitat de Catalunya,POINT (2.1378870422539085 41.357044733789174),la Marina de Port,08038
-75,Torre Fundació la Caixa,POINT (2.126688360294687 41.38752081772347),la Maternitat i Sant Ramon,08028
-76,MicroBank,POINT (2.1339144739273324 41.365047687686726),la Bordeta,08014
-77,BCNscience,POINT (2.1995450747329244 41.399663159762575),el Poblenou,08005
-78,L'Illa Diagonal,POINT (2.135111680000368 41.38955905244027),les Corts,08029
-79,Mutua General de Seguros,POINT (2.1374030590175446 41.389999492674384),les Corts,08029
-80,Z Green Oasis,POINT (2.190934798878575 41.3955697682793),el Parc i la Llacuna del Poblenou,08018
-81,Monday,POINT (2.1931108874738063 41.401282239330556),el Parc i la Llacuna del Poblenou,08018
-82,One Parc Central 22@,POINT (2.199161065638166 41.40767166231378),Provençals del Poblenou,08018
-83,Smart 1,POINT (2.202939380259867 41.41043082403431),Provençals del Poblenou,08020
-84,VidaCaixa,POINT (2.1343244767473295 41.364740511417494),la Bordeta,08014
-85,American Nike SL,POINT (2.1373022 41.4104658),Sant Gervasi - la Bonanova,08022
-86,Institut Botànic de Barcelona,POINT (2.1607333548657732 41.36213002366267),el Poble-sec,08038
-87,Institut d'Investigacions Biomèdiques de Barcelona - CSIC,POINT (2.1529852460457835 41.388861579867786),l'Antiga Esquerra de l'Eixample,08036
-88,Escola Superior d'Estudis Musicals Taller de Músics,POINT (2.1911854475252235 41.43426202971703),Sant Andreu,08030
-89,Consell Superior d'Investigacions Científiques,POINT (2.168900294128536 41.38087473285144),el Raval,08001
-90,Institut del Teatre,POINT (2.1573865686472864 41.37179664427498),el Poble-sec,08004
-91,Barcelona Activa (Ca N'Andalet),POINT (2.153488405116499 41.42697963945712),el Carmel,08032
-92,Centre Català Comercial,POINT (2.1768176655253297 41.4288511516207),Vilapicina i la Torre Llobeta,08016
-93,Nou Barris Activa,POINT (2.167723396618081 41.435811847133024),Can Peguera,08042
-94,Mercabarna,POINT (2.115003621440011 41.33451392422421),la Marina del Prat Vermell,08040
-95,Institut Barcelona Esports (IBE),POINT (2.150724295151256 41.36585378650345),el Poble-sec,08038
+2,Centre d'Estudis Politècnics,POINT (2.1732364 41.388631),"Sant Pere, Santa Caterina i la Ribera",08010
+3,Col·legi Major Universitari Lestonac,POINT (2.1660992 41.3928684),la Dreta de l'Eixample,08007
+4,Escola Port,POINT (2.1955636 41.3925137),la Vila Olímpica del Poblenou,08005
+5,Euroaula,POINT (2.1592325 41.3876943),l'Antiga Esquerra de l'Eixample,08011
+6,Master.D,POINT (2.1495545 41.3853711),la Nova Esquerra de l'Eixample,08029
+7,Institut de Nàutica de Barcelona,POINT (2.1881841 41.375665),la Barceloneta,08039
+8,Hospital del Mar. Institut FP Sanitària,POINT (2.1862012 41.3846929),"Sant Pere, Santa Caterina i la Ribera",08003
+9,Escola Superior de Relacions Públiques,POINT (2.1548775 41.3773076),Sant Antoni,08015
+10,Fundació i2CAT,POINT (2.1855277 41.3810176),la Barceloneta,08039
+11,Institut del Disseny i Arts Gràfiques de Barcelona,POINT (2.190603 41.4275518),la Sagrera,08027
+12,Institut de l'Esport de Barcelona,POINT (2.1481869 41.3748168),Hostafrancs,08014
+13,Facultat de Geografia i Història i Facultat de Filosofia. Universitat de Barcelona,POINT (2.1675737222446645 41.384186627158094),el Raval,08001
+14,Universitat Pompeu Fabra Campus del Poblenou,POINT (2.1940569688282117 41.40396829806385),el Parc i la Llacuna del Poblenou,08018
+15,Campus Ciutadella Universitat Pompeu Fabra,POINT (2.1904142441564645 41.38964524930031),la Vila Olímpica del Poblenou,08005
+16,IED Barcelona - Instituto Europeo de Diseño,POINT (2.1547292127485123 41.40545534236849),la Vila de Gràcia,08012
+17,Campus Nord,POINT (2.113436693591482 41.38874808505183),Pedralbes,08034
+18,Universitat de Barcelona,POINT (2.163543566996658 41.38687383685572),l'Antiga Esquerra de l'Eixample,08007
+19,Universitat Pompeu Fabra Campus del Mar,POINT (2.1929706676988476 41.38477687562808),la Barceloneta,08003
+20,ESCI - Universitat Pompeu Fabra,POINT (2.1819762220102867 41.38809537736655),"Sant Pere, Santa Caterina i la Ribera",08003
+21,Facultat de Medicina,POINT (2.1523563822938914 41.38955994259573),l'Antiga Esquerra de l'Eixample,08036
+22,UPF. Rectorat,POINT (2.1797665335412706 41.379050265242846),el Barri Gòtic,08002
+23,Facultat d'Informació i Mitjans Audiovisuals,POINT (2.1393187086504897 41.3810517553174),Sants,08014
+24,Facultat de Dret,POINT (2.120713909815961 41.38760519205639),Pedralbes,08034
+25,"Facultat de Física i Química, Universitat de Barcelona",POINT (2.117218308720762 41.384731337848166),la Maternitat i Sant Ramon,08028
+26,BAU. Centre universitari de disseny,POINT (2.196216877982082 41.397508870680774),el Poblenou,08005
+27,Escola Superior de Conservació i Restauració de Béns Culturals de Catalunya,POINT (2.1859142699911795 41.45195740371087),la Trinitat Nova,08033
+28,Institut Nacional d'Educació Física de Catalunya,POINT (2.1472706777492387 41.36433548167746),el Poble-sec,08038
+29,Parc Científic de Barcelona,POINT (2.117693174510591 41.38175022754133),la Maternitat i Sant Ramon,08028
+30,Universitat Internacional de Catalunya,POINT (2.121043101657743 41.40685548885413),Sarrià,08017
+31,Institut Vall d'Hebron,POINT (2.14028287117007 41.42292579522738),Sant Genís dels Agudells,08035
+32,"Col·legi d'Enginyers de Camins, Canals i Ports de Catalunya",POINT (2.1301368992619505 41.399324524977246),les Tres Torres,08017
+33,Hospital de la Santa Creu i Sant Pau,POINT (2.1745118834368378 41.41401797898207),el Guinardó,08025
+34,Hospital El Pilar,POINT (2.148218469045638 41.40017952518635),Sant Gervasi - Galvany,08006
+35,Clínica Teknon,POINT (2.127860283943652 41.40639100827534),Sant Gervasi - la Bonanova,08017
+36,Hospital de l'Esperança,POINT (2.154588302659929 41.410660643147835),la Salut,08024
+37,Capio Hospital Universitari Sagrat Cor,POINT (2.145587319733683 41.38891602802494),la Nova Esquerra de l'Eixample,08029
+38,Hospital Casa Maternitat,POINT (2.123544926746908 41.38519739192677),la Maternitat i Sant Ramon,08028
+39,Hospital de Barcelona,POINT (2.1297585940269093 41.38989659462465),les Corts,08034
+40,Hospital Universitari Vall d'Hebron,POINT (2.1408379962379156 41.428052306101144),Montbau,08035
+41,Hospital Clínic,POINT (2.1522381105606123 41.38948230941593),l'Antiga Esquerra de l'Eixample,08036
+42,HM Nou Delfos,POINT (2.1423785539557247 41.413664806005244),Vallcarca i els Penitents,08023
+43,Hospital de Nens de Barcelona,POINT (2.173848 41.397336),la Dreta de l'Eixample,08009
+44,Agencia Tributaria,POINT (2.2065735414770575 41.41528336780368),Provençals del Poblenou,08020
+45,Transports Metropolitans de Barcelona,POINT (2.1434154817880757 41.346294410366525),la Marina del Prat Vermell,08040
+46,Barcelona Cicle de l'Aigua SA,POINT (2.1385420173595153 41.350767054736764),la Marina del Prat Vermell,08038
+47,Cornerstone Building A,POINT (2.2019460663970047 41.4045466282113),el Poblenou,08005
+48,Endesa,POINT (2.1824323348991577 41.39220241320747),el Fort Pienc,08018
+49,Torre Glòries,POINT (2.1895208421946526 41.403515224842934),el Parc i la Llacuna del Poblenou,08018
+50,Departament d'Educació de la Generalitat de Catalunya,POINT (2.1398131835032266 41.398325691727436),Sant Gervasi - Galvany,08021
+51,Torres Diagonal Litoral B1,POINT (2.2181082592065473 41.407509506311264),Diagonal Mar i el Front Marítim del Poblenou,08019
+52,Torre Muñoz,POINT (2.159619751868561 41.3958259669172),la Dreta de l'Eixample,08008
+53,Torre Diagonal One,POINT (2.220567453725799 41.41208375980627),el Besòs i el Maresme,08019
+54,Torre Llacuna,POINT (2.1920188041277995 41.40672435846382),Provençals del Poblenou,08018
+55,Agbar,POINT (2.2228151704131207 41.41048847029045),el Besòs i el Maresme,08019
+56,Casa de la Generalitat,POINT (2.1636452072420105 41.37894618818828),el Raval,08001
+57,"Oficines ""La Caixa""",POINT (2.208325644246168 41.407162635399274),Diagonal Mar i el Front Marítim del Poblenou,08019
+58,Betahaus,POINT (2.156651163550632 41.40691713048903),la Vila de Gràcia,08024
+59,Transports Metropolitans de Barcelona,POINT (2.199205591599788 41.43121689219749),el Bon Pastor,08020
+60,Banco Español de Crédito (Banesto),POINT (2.1692674029441696 41.38792137112757),la Dreta de l'Eixample,08007
+61,NOVARTIS,POINT (2.1807435546188447 41.39814387957704),el Fort Pienc,08013
+62,Orange Catalunya Xarxa de Telecomunicacions,POINT (2.185957466103148 41.42345763225152),la Sagrera,08027
+63,Hexàgon Glóries,POINT (2.189978218641066 41.399035804389875),el Parc i la Llacuna del Poblenou,08018
+64,Col·legi d'Economistes de Catalunya,POINT (2.152343181807687 41.39994923752552),la Vila de Gràcia,08006
+65,Aigües de Barcelona,POINT (2.108579250958986 41.37847932837243),la Maternitat i Sant Ramon,08028
+66,Wallbox,POINT (2.141148659318715 41.35565584016101),la Marina del Prat Vermell,08038
+67,Generalitat de Catalunya,POINT (2.1378870422539085 41.357044733789174),la Marina de Port,08038
+68,Torre Fundació la Caixa,POINT (2.126688360294687 41.38752081772347),la Maternitat i Sant Ramon,08028
+69,MicroBank,POINT (2.1339144739273324 41.365047687686726),la Bordeta,08014
+70,BCNscience,POINT (2.1995450747329244 41.399663159762575),el Poblenou,08005
+71,L'Illa Diagonal,POINT (2.1351121377556517 41.389559234581114),les Corts,08029
+72,Z Green Oasis,POINT (2.190934798878575 41.3955697682793),el Parc i la Llacuna del Poblenou,08018
+73,Monday,POINT (2.1931108874738063 41.401282239330556),el Parc i la Llacuna del Poblenou,08018
+74,One Parc Central 22@,POINT (2.199161065638166 41.40767166231378),Provençals del Poblenou,08018
+75,Smart 1,POINT (2.202939380259867 41.41043082403431),Provençals del Poblenou,08020
+76,VidaCaixa,POINT (2.1343244767473295 41.364740511417494),la Bordeta,08014
+77,American Nike SL,POINT (2.1373022 41.4104658),Sant Gervasi - la Bonanova,08022
+78,Institut Botànic de Barcelona,POINT (2.1607333548657732 41.36213002366267),el Poble-sec,08038
+79,Escola Superior d'Estudis Musicals Taller de Músics,POINT (2.1911854475252235 41.43426202971703),Sant Andreu,08030
+80,Consell Superior d'Investigacions Científiques,POINT (2.168900294128536 41.38087473285144),el Raval,08001
+81,Institut del Teatre,POINT (2.1573865686472864 41.37179664427498),el Poble-sec,08004
+82,Barcelona Activa (Ca N'Andalet),POINT (2.153488405116499 41.42697963945712),el Carmel,08032
+83,Centre Català Comercial,POINT (2.1768176655253297 41.4288511516207),Vilapicina i la Torre Llobeta,08016
+84,Nou Barris Activa,POINT (2.167723396618081 41.435811847133024),Can Peguera,08042
+85,Mercabarna,POINT (2.115003621440011 41.33451392422421),la Marina del Prat Vermell,08040
+86,Institut Barcelona Esports (IBE),POINT (2.150724295151256 41.36585378650345),el Poble-sec,08038
