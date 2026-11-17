@@ -1,0 +1,25 @@
+{
+  "params": {
+    "rho_operator": 0.5,
+    "rho_user": 0.5,
+    "vot": 12.0,
+    "p_terminals": 1,
+    "frequency": 4.4,
+    "t_outside_h": 0.75,
+    "t_rest_h": 0.09722166666666668,
+    "cd": 0.55,
+    "ct": 55.81,
+    "t0": 5.0,
+    "w_iu": 1.0
+  },
+  "solver": "HIGHS",
+  "n_stops": 6,
+  "stops_mode": "eq",
+  "status": "99",
+  "build_time_s": 1.1307268749987998,
+  "solve_time_s": 10805.593530667,
+  "n_vars": 178052,
+  "n_constraints": 109864,
+  "sample_stops": null,
+  "seed": 0
+}

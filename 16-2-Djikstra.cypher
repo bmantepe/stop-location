@@ -70,10 +70,10 @@ RETURN
   // add route_id as source-destination string
   route_source.id as from,
   route_destination.id as to,
-  coalesce(route_source.id, route_source.poi_name) + ' to ' + coalesce(route_destination.id, route_destination.poi_name) AS route_id,
+  coalesce(route_source.id, route_source.id) + ' to ' + coalesce(route_destination.id, route_destination.id) AS route_id,
   step,
-  coalesce(origin.id, origin.poi_name) AS origin,
-  coalesce(destination.id, destination.poi_name) AS destination,
+  coalesce(origin.id, origin.id) AS origin,
+  coalesce(destination.id, destination.id) AS destination,
   relationship.tram as tram,
   relationship.type AS edge_type,
   relationship.cost AS edge_cost,

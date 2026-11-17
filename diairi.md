@@ -617,3 +617,25 @@ reudït alguns pois
 aplicant logica del paper per reduïr numero de parades de bus -> adaptada i tenim 100 punts de bus :)
 to-do -> carregar el grpaha neo4j, demand matrix, costmatrix...
 a edges egress el poi 45 surt null en algunes entries i no va be al neor4j, tb passar el format a int (o fer que l'id sigui el nom xd)
+
+idea: comparar solucions amb línees que tinguin la mateixa city gate però diferents frequencies (ex: bus teià, alella...)
+
+# 14 novmebre
+
+cambiar poi id -> nom per claredad
+afegir parades com a possibles si tenen 4+ parades elles mateixes no només si tenen un exchange a prop amb alguna altra parada. mantenir els 250 m
+no hi ha molta diferència, passes de 100 -> 105
+
+# 16 nov
+
+començar a executar les configuracions, les exactes
+crec qho he executat llegint les parades que no eren
+
+
+# 17
+
+les parades de {'SF-LP', 'SF-VL'} no es fan servir ja que no son reachable pel bus IU, pero sembla que si ho són des de SF-PF mirant google maps.
+A la velocitat del problema tardes 17 min no 11, llavors es queden filtrades ja que t > 15. Les elimino al stop reduction i torno a carregar el graph
+
+l'exacte amb 6 parades no funciona, ni dp de 3 hores, pero no troba ni best bound,mirem que passa
+

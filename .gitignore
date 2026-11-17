@@ -10,6 +10,7 @@ fluxes/
 lib/
 .env
 .Rdata
+license.dat
 .Rhistory
 .DS_Store
 Data/.DS_Store
